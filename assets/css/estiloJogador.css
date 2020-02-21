@@ -1,0 +1,117 @@
+html{ overflow-x :hidden;
+      overflow-y:auto;
+}
+
+body{ background-color: #5a9dcf; margin: 0 auto;}
+
+img{ width: 12%;
+    margin: 0% 0% -13% 43%;}
+
+#campos{
+    width: 15%;
+    margin: 10% auto;
+    padding: 1%;
+}
+
+#jogador{
+    border: #FFF solid 2px;
+    margin: 12% 25%;
+    width: 50%;
+}
+
+#titulo {
+    color: #FFF;
+    font-weight: bold;
+    margin: 1% 1% 1% 33%;
+    width: 50%;
+}
+
+
+
+.texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+}
+
+.texto:hover{
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.form-control{
+    margin: 5px;
+    width: 95%;
+}
+
+label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+}
+
+button.btn.btn-primary{
+    margin: 1% 84% 1%;
+    font-weight: bold;
+}
+
+ul.nav.justify-content-end{
+    background-color: #0070A4;
+}
+
+.nav-link{
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+}
+
+.nav-link:hover{
+    color: darkgrey;
+    font-weight: bold;
+}
+
+#myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+}
+
+#myFooter .row {
+    margin-bottom: 0px;
+}
+
+#myFooter .info{
+    text-align: justify; 
+    color: #FFF;
+    margin: 15% 0% 0% 0%;
+}
+
+.col-sm-3{
+    margin: 15% 0% 0% 0%;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: -150px;
+}
+
+#myFooter a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+}
+
