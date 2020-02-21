@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>AdmQuiz - Cadastro de Perguntas</title>
+
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-grid.css"/>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-reboot.css"/>
+
+    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js.map"></script>
+    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../assets/css/estiloPerguntas.css"/>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/aj ax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div id="Topo">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ajuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+          </ul>
+    </div>
+    <div id="Conteudo">
+        <img src="../assets/imagens/favicon.ico">
+        <form>
+            <fieldset id="perguntas"><legend id="titulo"> Cadastro de Perguntas </legend>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputPergunta" class="texto">Crie sua Pergunta: </label>
+                    <input type="text" class="form-control" id="inputPergunta" placeholder="Crie sua pergunta" size="30" maxlength="40">
+                </div>                
+                <div class="form-group col-md-4">
+                    <label for="inputCursos" class="texto">Selecione a Categoria: </label>
+                    <select id="inputCursos" class="form-control">
+                        <option selected>Escolher...</option>                        
+                            <option> Administração do caixa </option>
+                            <option> Administração financeira </option>
+                            <option> Administração holística </option>
+                            <option> Planejamento </option>
+                            <option> Logística </option>
+                        <optgroup>                        
+                    </select>
+                </div>
+            </div>          
+            <div class="form-group col-md-4">
+                <label for="inputPerguntas" class="texto">Defina as respostas:  </label>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="radioA" name="cResposta" class="custom-control-input">
+                        <label class="custom-control-label" for="radioA">A</label>
+                        <input type="text" id="inputPerguntaA" class="form-control" size="30" maxlength="40">
+                    </div> 
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="radioB" name="cResposta" class="custom-control-input">
+                        <label class="custom-control-label" for="radioB">B</label>
+                        <input type="text" class="form-control" id="inputPerguntaB" size="30" maxlength="40">
+                    </div> 
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="radioC" name="cResposta" class="custom-control-input">
+                        <label class="custom-control-label" for="radioC">C</label>
+                        <input type="text" class="form-control" id="inputPerguntaC" size="30" maxlength="40">
+                    </div> 
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="radioD" name="cResposta" class="custom-control-input">
+                        <label class="custom-control-label" for="radioD">D</label>
+                        <input type="text" class="form-control" id="inputPerguntaD" size="30" maxlength="40">
+                    </div> 
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="radioE" name="cResposta" class="custom-control-input">
+                        <label class="custom-control-label" for="radioE">E</label>
+                        <input type="text" class="form-control" id="inputPerguntaE" size="30" maxlength="40">
+                    </div>                    
+            </div>
+            <div class="form-row">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </fieldset>
+        </form>
+    </div>
+    <div id="Rodape">
+        <div class="content">
+            <footer id="myFooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h5>Inicio</h5>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Dicas</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Sobre nós</h5>
+                            <ul>
+                                <li><a href="#">Informações Sobre o Jogo</a></li>
+                                <li><a href="#">Desenvolvedores</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Suporte</h5>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Telefones</a></li>
+                                <li><a href="#">Chat</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 info">
+                            <h5>Informações</h5>
+                            <p> Lorem ipsum nam quisque aliquam sapien cras vulputate torquent metus aenean, vehicula aenean dui mi risus hac a mattis at. 
+                                pulvinar torquent tempor congue lorem non sociosqu tortor, conubia at pretium tortor nisi consequat.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
