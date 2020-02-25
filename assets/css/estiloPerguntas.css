@@ -4,6 +4,18 @@ html{ overflow-x :hidden;
 
 body{ background-color: #5a9dcf; margin: 0 auto;}
 
+#admIcon
+{
+  width: 41px;
+  margin: -66px 1052px 1px 20px;
+}
+
+
+#admIcon:hover
+{
+  opacity: 60%;
+}
+
 img{ width: 12%;
   margin: 0% 0% -13% 43%;}
 
@@ -21,9 +33,9 @@ img{ width: 12%;
 
 #titulo {
   color: #FFF;
-  font-weight: bold;
-  margin: 1% 1% 1% 33%;
-  width: 50%;
+  font-weight: bolder;
+  margin: -2% 9% 9% 29%;
+  width: 38%
 }
 
 

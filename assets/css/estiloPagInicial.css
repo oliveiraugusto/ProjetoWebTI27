@@ -10,6 +10,18 @@ body
     margin: 0 auto;
 }
 
+#admIcon
+{
+  width: 41px;
+  margin: -66px 1052px 1px 20px;
+}
+
+
+#admIcon:hover
+{
+  opacity: 60%;
+}
+
 img
 { 
     width: 26%;
@@ -33,15 +45,6 @@ img
 #divbotao
 {
     margin: 237px 101px 228px 547px;
-}
-
-.btn.btn-warning
-{
-    width: 31%;
-    font-family: Arial;
-    font-style: italic;
-    font-size: 27px;
-
 }
 
 .texto
@@ -83,16 +86,6 @@ ul.nav.justify-content-end
   background-color: #0070A4;
 }
 
-#admIcon
-{
-  width: 41px;
-  margin: -66px 1052px 1px 20px;
-}
-
-#admIcon:hover
-{
-  opacity: 60%;
-}
 
 .nav-link
 {
