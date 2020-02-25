@@ -83,6 +83,17 @@ ul.nav.justify-content-end
   background-color: #0070A4;
 }
 
+#admIcon
+{
+  width: 41px;
+  margin: -66px 1052px 1px 20px;
+}
+
+#admIcon:hover
+{
+  opacity: 60%;
+}
+
 .nav-link
 {
   margin: 0% 2% 0% 0%;
