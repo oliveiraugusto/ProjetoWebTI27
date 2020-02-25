@@ -16,6 +16,19 @@ img
     margin: 5% 2% -13% 36%;
 }
 
+#botao_jogar
+{
+  margin: 40px -12px;
+  width: 248px;
+  align-content: center;
+}
+
+#botao_jogar:hover
+{
+  width: 238px;
+  align-content: center;
+  margin: 40px -8px;
+}
 
 #divbotao
 {
@@ -30,6 +43,7 @@ img
     font-size: 27px;
 
 }
+
 .texto
 {
   color: #FFF;
