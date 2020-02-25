@@ -5,8 +5,7 @@
     <title>AdmQuiz - Página Inicial</title>
 
     <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="./assets/js/rankingscript.js"></script>
-
+  
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-grid.css"/>
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-reboot.css"/>
@@ -18,6 +17,25 @@
     <link rel="stylesheet" href="../assets/css/estiloPagInicial.css"/>
     <link rel="stylesheet" href="../assets/css/estiloranking.css"/>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/aj ax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>
+
+    <script type="text/javascript">
+    function VerificarCPF()
+    {
+        var valid;
+        
+        var cpf = prompt("Digite seu CPF:");
+        
+        if (cpf == "")
+        {
+            alert("Ops! Digite seu CPF!")
+        }
+        else
+        {
+            window.location.href = "CadJogador.html";
+        }
+    }
+    </script>
+
 </head>
 <body>
     <div id="Topo">
@@ -41,7 +59,7 @@
     </div>
 
     <div id="divbotao">
-        <input type="image" src="../assets/imagens/botao_jogar.png" alt="Jogar" id="botao_jogar">
+    <input type="image" src="../assets/imagens/botao_jogar.png" alt="Jogar" id="botao_jogar" onclick="VerificarCPF()">
     </div>
     <div id="Rodape">
         <div class="content">
