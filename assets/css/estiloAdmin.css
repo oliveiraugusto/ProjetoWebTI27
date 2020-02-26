@@ -1,0 +1,69 @@
+/*Aqui está a configuração do html*/
+html{ overflow-x :hidden;
+    overflow-y:auto;
+}
+
+/*Aqui está a configuração da imagem inserida na página*/
+img{
+    width: 10%;
+    margin: 0% 0% 0% 44%;
+}
+
+/*Aqui está a configuração do título da página*/
+#label_cima{
+    margin: 0% 0% 0% 45%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+}
+#label_meio{
+    margin: 0% 0% 0% 44%;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: inline;
+}
+#label_ultimo{
+    margin: 0% 0% 0% 45%;
+    color: white;
+    font-size: 15px;
+    display: inline;
+}
+
+
+
+/*Aqui está a configuração da margem de cima*/
+
+body{
+    background-color: #5a9dcf; margin: 0 auto; ;
+}
+
+ul.nav.justify-content-end{
+    background-color: #0070A4;
+}
+
+/*Aqui está a configuração da entrada de dados, referente a página*/
+.form-control{
+    margin: 1% 0% 0% 38%;
+    width: 25%;
+    
+}
+
+label{
+    margin: 2% 0% 0% 38%;
+    display: inline;
+    color: white;
+    font-size: bold;
+}
+
+
+.nav-link{
+    margin: 0% 1% 0% 1%;
+    color: #FFF;
+}
+
+.nav-link:hover{
+color: darkgray;
+font-weight: bold;
+}
