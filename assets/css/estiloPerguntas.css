@@ -10,7 +10,6 @@ body{ background-color: #5a9dcf; margin: 0 auto;}
   margin: -66px 1052px 1px 20px;
 }
 
-
 #admIcon:hover
 {
   opacity: 60%;
@@ -35,16 +34,14 @@ img{ width: 12%;
   color: #FFF;
   font-weight: bolder;
   margin: -2% 9% 9% 29%;
-  width: 38%
+  width: 41%
 }
-
-
 
 .texto{
   color: #FFF;
   font-size: large;
   font-weight: 20pt;
-  margin: 5px;
+  margin: 10px;
 }
 
 .texto:hover{
@@ -53,8 +50,8 @@ img{ width: 12%;
 }
 
 .form-control{
-  margin: 5px;
-  width: 95%;
+  margin: 9px;
+  width: 100%;
 }
 
 label.custom-control-label{
@@ -65,7 +62,7 @@ label.custom-control-label{
 }
 
 button.btn.btn-primary{
-  margin: 1% 84% 1%;
+  margin: 1% 1% 1%;
   font-weight: bold;
 }
 
@@ -126,4 +123,3 @@ ul.nav.justify-content-end{
   color: darkgrey;
   font-weight: bold;
 }
-
