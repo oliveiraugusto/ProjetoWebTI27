@@ -1,0 +1,121 @@
+html{ overflow-x :hidden;
+    overflow-y:auto;
+}
+
+/*Configuração do CSS da margem de cima da tela*/
+body{ background-color: #5a9dcf; margin: 0 auto;}
+
+#admIcon
+{
+width: 41px;
+margin: -66px 1052px 1px 20px;
+}
+
+ul.nav.justify-content-end{
+  background-color: #0070A4;
+}
+
+.nav-link{
+  margin: 0% 2% 0% 0%;
+  color: #FFF;
+}
+
+.nav-link:hover{
+  color: darkgrey;
+  font-weight: bold;
+}
+
+
+#admIcon:hover
+{
+opacity: 60%;
+}
+
+img{ width: 12%;
+margin: 0% 0% -10% 12%;}
+
+
+
+#titulo {color: #FFF;
+font-weight: bolder;
+margin: 5% 5% 5% 26%;
+width: 50%;}
+
+.texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 0% 0% 0% 13%;
+  }
+
+.form-control{
+    margin: 0% 0% 0% 13%;
+    width: 200%;
+    border-radius: 10px;
+}
+
+label.label_radiotitu{
+color: #FFF; 
+font-weight: bolder;
+font-size: 20px;
+margin: 0% 1% 0% 10%;
+}
+.custom-control-inline{
+margin: 0% 0% 0% 10%;
+}
+
+.btn-primary{
+    margin: 0% 50% 0% 8%;
+}
+
+
+label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+}
+
+#Categoria{border: #FFF solid 2px;
+margin: 13% 8%;
+width: 21%;}
+
+/*Configuração do CSS da margem de baixo, rodapé*/
+#myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+  }
+  
+  #myFooter .row {
+    margin-bottom: 0px;
+  }
+  
+  
+  .col-sm-3{
+    margin: 15% 0% 0% 0%;
+  }
+  
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+  
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: -150px;
+  }
+  
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  #myFooter a:hover,
+  #myFooter a:focus {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
