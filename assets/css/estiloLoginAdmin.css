@@ -4,14 +4,23 @@ html{ overflow-x :hidden;
 }
 
 /*Aqui está a configuração da imagem inserida na página*/
-img{
-    width: 10%;
-    margin: 0% 0% 0% 44%;
-}
+img{ width: 12%;
+    margin: 0% 0% -13% 43%;}
 
 /*Aqui está a configuração da margem de cima*/
 body{
     background-color:#5a9dcf; margin: 0 auto; ;
+}
+
+#admIcon
+{
+width: 41px;
+margin: -66px 1052px 1px 20px;
+}
+
+#admIcon:hover
+{
+opacity: 60%;
 }
 
 ul.nav.justify-content-end{
@@ -19,39 +28,60 @@ ul.nav.justify-content-end{
 }
 
 .nav-link{
-    margin: 0% 1% 0% 1%;
+    margin: 0% 2% 0% 0%;
     color: #FFF;
 }
-
+  
 .nav-link:hover{
-color: darkgray;
-font-weight: bold;
+    color: darkgrey;
+    font-weight: bold;
 }
 
 /*Aqui está a configuração da entrada de dados, CPF e Senha*/
-#label_central{
-    margin: 4% 0% 0% 41%;
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
+#campos{
+  width: 15%;
+  margin: 10% auto;
+  padding: 1%;
 }
+
+#administrador{
+  border: #FFF solid 2px;
+  margin: 13% 25%;
+  width: 50%;
+}
+
+#titulo {
+  color: #FFF;
+  font-weight: bolder;
+  margin: 5% 5% 5% 30%;
+  width: 36%;
+}
+
+
+.texto{
+  color: #FFF;
+  font-size: large;
+  font-weight: 20pt;
+  margin: 5px;
+}
+
 .form-control{
-margin: 1% 0% 0% 38%;
-width: 25%;
-
-}
-label{
-    margin: 2% 0% 0% 38%;
-    display: inline;
-    color: white;
-    font-size: bold;
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
 }
 
-button{
-    margin: 2% 0% 0% 45%;
-    width: 11%;
+label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
 }
 
+button.btn.btn-primary{
+    margin: 1% 45% 1%;
+    font-weight: bold;
+}
 /*Aqui está a configuração do rodapé*/
 #myFooter {
     background-color: #0070A4;

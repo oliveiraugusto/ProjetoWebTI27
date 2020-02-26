@@ -1,69 +1,118 @@
-/*Aqui está a configuração do html*/
 html{ overflow-x :hidden;
     overflow-y:auto;
 }
 
-/*Aqui está a configuração da imagem inserida na página*/
-img{
-    width: 10%;
-    margin: 0% 0% 0% 44%;
-}
+body{ background-color: #5a9dcf; margin: 0 auto;}
 
-/*Aqui está a configuração do título da página*/
-#label_cima{
-    margin: 0% 0% 0% 45%;
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
-    display: inline;
-}
-#label_meio{
-    margin: 0% 0% 0% 44%;
-    color: white;
-    font-weight: bold;
-    font-size: 35px;
-    display: inline;
-}
-#label_ultimo{
-    margin: 0% 0% 0% 45%;
-    color: white;
-    font-size: 15px;
-    display: inline;
-}
-
-
-
-/*Aqui está a configuração da margem de cima*/
-
-body{
-    background-color: #5a9dcf; margin: 0 auto; ;
+#admIcon
+{
+width: 41px;
+margin: -66px 1052px 1px 20px;
 }
 
 ul.nav.justify-content-end{
-    background-color: #0070A4;
+  background-color: #0070A4;
 }
-
-/*Aqui está a configuração da entrada de dados, referente a página*/
-.form-control{
-    margin: 1% 0% 0% 38%;
-    width: 25%;
-    
-}
-
-label{
-    margin: 2% 0% 0% 38%;
-    display: inline;
-    color: white;
-    font-size: bold;
-}
-
 
 .nav-link{
-    margin: 0% 1% 0% 1%;
-    color: #FFF;
+  margin: 0% 2% 0% 0%;
+  color: #FFF;
 }
 
 .nav-link:hover{
-color: darkgray;
-font-weight: bold;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+
+#admIcon:hover
+{
+opacity: 60%;
+}
+
+img{ width: 12%;
+  margin: 0% 0% -13% 43%;}
+
+#campos{
+  width: 15%;
+  margin: 10% auto;
+  padding: 1%;
+}
+
+#administrador{
+  border: #FFF solid 2px;
+  margin: 13% 25%;
+  width: 50%;
+}
+
+#titulo {
+  color: #FFF;
+  font-weight: bolder;
+  margin: 5% 5% 5% 26%;
+  width: 50%;
+}
+
+
+.texto{
+  color: #FFF;
+  font-size: large;
+  font-weight: 20pt;
+  margin: 5px;
+}
+
+.form-control{
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
+}
+
+label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+}
+
+button.btn.btn-primary{
+  margin: 1% 84% 1%;
+  font-weight: bold;
+}
+
+#myFooter {
+  background-color: #0070A4;
+  color: #FFF;
+}
+
+#myFooter .row {
+  margin-bottom: 0px;
+}
+
+
+.col-sm-3{
+  margin: 15% 0% 0% 0%;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: -150px;
+}
+
+#myFooter a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
 }
