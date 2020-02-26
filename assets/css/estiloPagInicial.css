@@ -28,6 +28,12 @@ img
     margin: 5% 2% -13% 36%;
 }
 
+#logo_ranking
+{
+  width: 8%;
+  margin: 15px 1px -16px 32px;
+}
+
 #botao_jogar
 {
   margin: 40px -12px;
