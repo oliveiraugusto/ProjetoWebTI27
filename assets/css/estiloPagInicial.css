@@ -1,13 +1,13 @@
 html
 {
-    overflow-x :hidden;
-    overflow-y:auto;
+  overflow-x :hidden;
+  overflow-y:auto;
 }
 
 body
 {
-    background-color: #5a9dcf; 
-    margin: 0 auto;
+  background-color: #5a9dcf; 
+  margin: 0 auto;
 }
 
 #admIcon
@@ -24,8 +24,8 @@ body
 
 img
 { 
-    width: 26%;
-    margin: 5% 2% -13% 36%;
+  width: 26%;
+  margin: 5% 2% -13% 36%;
 }
 
 #logo_ranking
@@ -43,15 +43,25 @@ img
 
 #botao_jogar:hover
 {
-  width: 238px;
-  align-content: center;
-  margin: 40px -8px;
+  opacity: 70%;
 }
 
 #divbotao
 {
-    margin: 237px 101px 228px 547px;
+  margin: 237px 101px 228px 547px;
 }
+
+
+a.btn.btn-primary
+{
+  margin: 5% 2% 4% -186px;
+  font-weight: bold;
+  width: 148px;
+  height: 39px;
+  border-radius: 22px
+  
+}
+
 
 .texto
 {
@@ -79,12 +89,6 @@ label.custom-control-label
   font-size: large;
   font-weight: 20pt;
   margin: 5px;
-}
-
-button.btn.btn-primary
-{
-  margin: 1% 84% 1%;
-  font-weight: bold;
 }
 
 ul.nav.justify-content-end
