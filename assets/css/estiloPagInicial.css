@@ -92,20 +92,16 @@ label.custom-control-label
   margin: 5px;
 }
 
-ul.nav.justify-content-end
-{
-  background-color: #0070A4;
+ul.nav.justify-content-end{
+  background-color:  #0070A4;
 }
 
-
-.nav-link
-{
+.nav-link{
   margin: 0% 2% 0% 0%;
   color: #FFF;
 }
 
-.nav-link:hover
-{
+.nav-link:hover{
   color: darkgrey;
   font-weight: bold;
 }

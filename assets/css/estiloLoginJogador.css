@@ -1,13 +1,11 @@
-/*Aqui está a configuração do html*/
 html{ overflow-x :hidden;
     overflow-y:auto;
 }
 
-/*Aqui está a configuração da imagem inserida na página*/
 img{ width: 12%;
-    margin: 0% 0% -13% 45%;}
+    margin: 0% 0% -13% 45%;
+}
 
-/*Aqui está a configuração da margem de cima*/
 body{
     background-color:#5a9dcf; margin: 0 auto; ;
 }
@@ -37,9 +35,7 @@ ul.nav.justify-content-end{
     font-weight: bold;
 }
 
-/*Aqui está a configuração da entrada de dados, CPF e Senha*/
-
-#administrador{
+#jogador{
   border: #FFF solid 2px;
   margin: 13% 28%;
   width: 45%;
@@ -48,8 +44,8 @@ ul.nav.justify-content-end{
 #titulo {
   color: #FFF;
   font-weight: bolder;
-  margin: 5% 5% 5% 30%;
-  width: 40%;
+  margin: 5% 5% 5% 35%;
+  width: 28%;
 }
 
 .texto{
@@ -88,7 +84,6 @@ input#autoSizingCheck2.form-check-input{
     margin: 4% -10% 0%;
 }
 
-/*Aqui está a configuração do rodapé*/
 #myFooter {
     background-color: #0070A4;
     color: #FFF;
