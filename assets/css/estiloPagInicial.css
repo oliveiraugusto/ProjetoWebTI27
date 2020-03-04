@@ -34,6 +34,11 @@ img
   margin: 15px 1px -16px 32px;
 }
 
+#logo_ranking:hover
+{
+  opacity: 75%;
+}
+
 #botao_jogar
 {
   margin: 40px -12px;
