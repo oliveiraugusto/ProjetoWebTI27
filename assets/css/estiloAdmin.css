@@ -1,117 +1,146 @@
-html{ overflow-x :hidden;
+/*FULL HD* Css Query/
+@media only screen and (max-width: 1920px)
+{
+  body{background-color: pink;}
+}
+/*PC*/
+@media only screen and (max-width: 1660px)
+{
+  body{background-color:red;}
+}
+/*NOTEBOOK*/
+@media only screen and (max-width: 1440px)
+{
+  body{background-color:yellow;}
+}
+/*HD*/
+@media only screen and (max-width: 1366px)
+{
+  body{background-color:blue;}
+}
+
+/*TELAS ANTIGAS*/
+@media only screen and (max-width: 1024px)
+{
+  body{background-color: brown;}
+}
+
+/*TELAS OBSOLETA*/
+@media only screen and (max-width: 800px)
+{
+  body{background-color: palegreen;}
+}
+
+/*IPHONE*/
+@media only screen and (max-width: 414px)
+{
+  body{background-color: green;}
+}
+
+/*ANDROID*/
+@media only screen and (max-width: 360px)
+{
+
+  html{ overflow-x :hidden;
     overflow-y:auto;
-}
+  }
 
-body{ background-color: #5a9dcf; margin: 0 auto;}
+  /*Configurações da margem de cima*/
+  body{ background-color: #5a9dcf; margin: 0 auto;}
 
-#admIcon
-{
-width: 41px;
-margin: -66px 1052px 1px 20px;
-}
+  #admIcon
+  {
+  width: 41px;
+  margin: -66px 1052px 1px 20px;
+  }
 
-#admIcon:hover
-{
-opacity: 60%;
-}
+  #admIcon:hover
+  {
+  opacity: 60%;
+  }
 
-ul.nav.justify-content-end{
-  background-color: #0070A4;
-}
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+  }
 
-.nav-link{
-  margin: 0% 2% 0% 0%;
-  color: #FFF;
-}
+  .nav-link{
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+  }
 
-.nav-link:hover{
-  color: darkgrey;
-  font-weight: bold;
-}
+  .nav-link:hover{
+    color: darkgrey;
+    font-weight: bold;}
+    
+  /*Configurações da imagem*/
+    img{ width: 40%;
+    margin: 0% 0% 2% 30%;}
 
-img{ width: 12%;
-  margin: 0% 0% -13% 45%;}
+  #administrador{
+    border: #FFF solid 2px;
+    margin: 3% 8%;
+    width: 85%;}
 
-#campos{
-  width: 15%;
-  margin: 10% auto;
-  padding: 1%;
-}
+    #titulo {
+      color: #FFF;
+      font-weight: bolder;
+      margin: 5% 5% 5% 26%;
+      width: 50%;}
+    .texto{
+      color: #FFF;
+      font-size: large;
+      font-weight: 20pt;
+      margin: 5px;}
 
-#administrador{
-  border: #FFF solid 2px;
-  margin: 13% 25%;
-  width: 50%;
-}
+    .form-control{
+      margin: 5px;
+      width: 95%;
+      border-radius: 10px;}
 
-#titulo {
-  color: #FFF;
-  font-weight: bolder;
-  margin: 5% 5% 5% 26%;
-  width: 50%;
-}
-
-
-.texto{
-  color: #FFF;
-  font-size: large;
-  font-weight: 20pt;
-  margin: 5px;
-}
-
-.form-control{
-    margin: 5px;
-    width: 95%;
-    border-radius: 10px;
-}
-
-label.custom-control-label{
+    label.custom-control-label{
     color: #FFF;
     font-size: large;
     font-weight: 20pt;
-    margin: 5px;
-}
+    margin: 5px;}
 
-button.btn.btn-primary{
-  margin: 1% 84% 1%;
-  font-weight: bold;
-}
+    button.btn.btn-primary{
+      margin: 2% 65% 3;
+      font-weight: bold;
+        }
+          
+    /*Configurações da margem de baixo*/
+      #myFooter {
+      background-color: #0070A4;
+      color: #FFF;}
+      
+      #myFooter .row {
+        margin-bottom: 0px;
+        }
 
-#myFooter {
-  background-color: #0070A4;
-  color: #FFF;
-}
+      .col-sm-3{
+        margin: 15% 0% 0% 0%; }
 
-#myFooter .row {
-  margin-bottom: 0px;
-}
+        #myFooter ul {
+          list-style-type: none;
+          padding-left: 0;
+          line-height: 1.7;
+          }
+          #myFooter h5 {
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+            margin-top: -27px;
+            }
+            
+            #myFooter a {
+              color: #FFF;
+              text-decoration: none;
+              }
 
+              #myFooter a:hover,
+              #myFooter a:focus {
+              text-decoration: none;
+              color: darkgrey;
+              font-weight: bold;}
 
-.col-sm-3{
-  margin: 15% 0% 0% 0%;
-}
-
-#myFooter ul {
-  list-style-type: none;
-  padding-left: 0;
-  line-height: 1.7;
-}
-
-#myFooter h5 {
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  margin-top: -150px;
-}
-
-#myFooter a {
-  color: #FFF;
-  text-decoration: none;
-}
-
-#myFooter a:hover,
-#myFooter a:focus {
-  text-decoration: none;
-  color: darkgrey;
-  font-weight: bold;
 }
