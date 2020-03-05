@@ -1,165 +1,189 @@
-html
+
+@media only screen and (max-width: 1920px)
 {
-  overflow-x :hidden;
-  overflow-y:auto;
+  body{background-color:red;}
 }
 
-body
+@media only screen and (max-width: 1660px)
 {
-  background-color: #5a9dcf; 
-  margin: 0 auto;
+  body{background-color: coral;}
 }
 
-#admIcon
+@media only screen and (max-width: 1440px)
 {
-  width: 41px;
-  margin: -66px 1052px 1px 20px;
+  body{background-color: orange;}
 }
 
-
-#admIcon:hover
+@media only screen and (max-width: 1366px)
 {
-  opacity: 60%;
+  body{background-color: purple;}
 }
 
-img
-{ 
-  width: 26%;
-  margin: 5% 2% -13% 36%;
+@media only screen and (max-width: 1024px)
+{
+  body{background-color: black;}
 }
 
-#logo_ranking
+@media only screen and (max-width: 800px)
 {
-  width: 8%;
-  margin: 15px 1px -16px 32px;
+  body{background-color: teal;}
 }
 
-#logo_ranking:hover
+@media only screen and (max-width: 414px)
 {
-  opacity: 75%;
+  body{background-color: whitesmoke;}
 }
 
-#botao_jogar
+@media only screen and (max-width: 360px)
 {
-  margin: 40px -12px;
-  width: 248px;
-  align-content: center;
-}
+  #Topo
+  {
+    width: 270%
+  }
 
-#botao_jogar:hover
-{
-  opacity: 70%;
-}
+  html
+  {
+    overflow-x :hidden;
+    overflow-y:auto;
+  }
 
-#divbotao
-{
-  margin: 139px 103px 195px 551px;
+  body
+  {
+    background-color: #5a9dcf; 
+    margin: 0 auto;
+  }
 
-}
+  #admIcon
+  {
+    width: 97px;
+    margin: -23px 0 1px 20px; 
+  }
 
-
-a.btn.btn-primary
-{
-  margin: 5% 2% 4% -186px;
-  font-weight: bold;
-  width: 148px;
-  height: 39px;
-  border-radius: 22px
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
   
+  img
+  { 
+    width: 136%;
+    margin: 44% 25% 43% 90%;
+  }
+  #logo_ranking
+  {
+    width: 8%;
+    margin: 15px 1px -16px 32px;
+  }
+  #logo_ranking:hover
+  {
+    opacity: 75%;
+  }
+  #botao_jogar
+  {
+    margin: 40px -12px;
+    width: 248px;
+    align-content: center;
+  }
+  #botao_jogar:hover
+  {
+    opacity: 70%;
+  }
+  #divbotao
+  {
+    margin: 139px 103px 195px 551px;
+  }
+  a.btn.btn-primary
+  {
+    margin: 5% 2% 4% -186px;
+    font-weight: bold;
+    width: 148px;
+    height: 39px;
+    border-radius: 22px 
+  }
+  .texto
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+  .texto:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+  .form-control
+  {
+    margin: 5px;
+    width: 95%;
+  }
+  label.custom-control-label
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+  ul.nav.justify-content-end
+  {
+    background-color:  #0070A4;
+    width: 114%
+  }
+  .nav-link
+  {
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+  }
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+  #myFooter 
+  {
+    background-color: #0070A4;
+    color: #FFF;
+  }
+  #myFooter .row 
+  {
+    margin-bottom: 0px;
+  }
+  #myFooter .info
+  {
+    text-align: justify; 
+    color: #FFF;
+    margin: 15% 0% 0% 0%;
+  }
+  .col-sm-3
+  {
+    margin: 15% 0% 0% 0%;
+  }
+  #myFooter ul 
+  {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+  #myFooter h5 
+  {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: -150px;
+  }
+  #myFooter a 
+  {
+    color: #FFF;
+    text-decoration: none;
+  }
+  #myFooter a:hover,
+  #myFooter a:focus 
+  {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
 }
 
 
-.texto
-{
-  color: #FFF;
-  font-size: large;
-  font-weight: 20pt;
-  margin: 5px;
-}
-
-.texto:hover
-{
-  color: darkgrey;
-  font-weight: bold;
-}
-
-.form-control
-{
-  margin: 5px;
-  width: 95%;
-}
-
-label.custom-control-label
-{
-  color: #FFF;
-  font-size: large;
-  font-weight: 20pt;
-  margin: 5px;
-}
-
-ul.nav.justify-content-end{
-  background-color:  #0070A4;
-}
-
-.nav-link{
-  margin: 0% 2% 0% 0%;
-  color: #FFF;
-}
-
-.nav-link:hover{
-  color: darkgrey;
-  font-weight: bold;
-}
-
-#myFooter 
-{
-  background-color: #0070A4;
-  color: #FFF;
-}
-
-#myFooter .row 
-{
-  margin-bottom: 0px;
-}
-
-#myFooter .info
-{
-  text-align: justify; 
-  color: #FFF;
-  margin: 15% 0% 0% 0%;
-}
-
-.col-sm-3
-{
-  margin: 15% 0% 0% 0%;
-}
-
-#myFooter ul 
-{
-  list-style-type: none;
-  padding-left: 0;
-  line-height: 1.7;
-}
-
-#myFooter h5 
-{
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  margin-top: -150px;
-}
-
-#myFooter a 
-{
-  color: #FFF;
-  text-decoration: none;
-}
-
-#myFooter a:hover,
-#myFooter a:focus 
-{
-  text-decoration: none;
-  color: darkgrey;
-  font-weight: bold;
-}
 
