@@ -631,142 +631,128 @@
 /* Telas Obsoleta */
 @media screen and (max-width: 800px)
 {
-  html
-   { overflow-x :hidden;
-       overflow-y:auto;
-   }
-
-   body{ background-color: #5a9dcf; margin: 0 auto;}
-
-   #admIcon
-   {
-     width: 41px;
-     margin: -66px 1052px 1px 20px;
-   }
-
-   #admIcon:hover
-   {
-     opacity: 60%;
-   }
-
-   img{ width: 12%;
-     margin: 0% 0% -13% 67%;}
-
-   #campos{
-     width: 15%;
-     margin: 10% auto;
-     padding: 1%;
-   }
-
-   #perguntas{
-     border: #FFF solid 2px;
-     margin: 12% 25%;
-     width: 95%;
-   }
-
-   #titulo {
-     color: #FFF;
-     font-weight: bolder;
-     margin: -2% 9% 9% 34%;
-     width: 34%
-   }
-
-   .texto{
-     color: #FFF;
-     font-size: 130%;
-     font-weight: 20pt;
-     margin: 10px;
-   }
-
-   .texto:hover{
-     color: darkgrey;
-     font-weight: bold;
-   }
-
-   .form-control{
-     margin: 9px;
-     width: 100%;
-   }
-
-   label.custom-control-label{
-     color: #FFF;
-     font-size: 130%;
-     font-weight: 20pt;
-     margin: 5px;
-   }
-
-   ul.nav.justify-content-end{
-     background-color: #0070A4;
-     width: 139%;
-   }
-
-   .nav-link{
-     margin: 0% 2% 0% 0%;
-     color: #FFF;
-   }
-
-   .nav-link:hover{
-     color: darkgrey;
-     font-weight: bold;
-   }
-
-   button.btn.btn-primary{
-    margin: 0% 83% 1%;
-    font-weight: bold;
-    font-size: 122%;
+  html{ overflow-x :hidden;
+    overflow-y:auto;
   }
+
+  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
+    overflow-y:auto;}
+
+  #admIcon{
+    width: 35px;
+    margin: -60px 0px 1px 6px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 100%;
+  }
+
+  .nav-link{
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 12pt;
+  }
+
+  img{ width: 25%;
+    margin: 0% 0% 0% 41%;
+  }
+  
+  #perguntas{
+    border: #FFF solid 2px;
+    margin: 0% 2%;
+    width: 96%;
+  }
+
+  #titulo {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 3% 5% 5% 37%;
+    width: 34%;
+  }
+
+  .textocategoria{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 0% 0% 0% 29%;
+  }
+
+  .textopergunta{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px;
+  } 
 
   .Check{
     color: #FFF;
-    font-size: 130%;
+    font-size: large;
     font-weight: 15pt;
-    margin: 5px 0px 0px -3px;
+    margin: 5px 0px 0px -10px;
   }
 
-   #myFooter {
+  .form-control{
+    margin: 5px;
+    width: 105%;
+    border-radius: 10px;
+  }
+
+  #inputCursos{
+    margin: 6% 28% 5%;
+    width: 80%;
+  }
+
+  label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 85% 1%;
+    font-weight: bold;
+  }
+
+  #myFooter {
     background-color: #0070A4;
     color: #FFF;
-    margin: 8% -39% 0% 0%;
+    margin: 24% 0% 0% 0%;
   }
 
-   #myFooter .row {
-     margin-bottom: 0px;
-   }
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
 
-   #myFooter .info{
-     text-align: justify; 
-     color: #FFF;
-     margin: 15% 0% 0% 0%;
-   }
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
 
-   .col-sm-3{
-     margin: 15% 0% 0% 0%;
-   }
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
 
-   #myFooter ul {
-     list-style-type: none;
-     padding-left: 0;
-     line-height: 1.7;
-   }
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
 
-   #myFooter h5 {
-     font-size: 18px;
-     color: white;
-     font-weight: bold;
-     margin-top: -15px;
-   }
-
-   #myFooter a {
-     color: #FFF;
-     text-decoration: none;
-   }
-
-   #myFooter a:hover,
-   #myFooter a:focus {
-     text-decoration: none;
-     color: darkgrey;
-     font-weight: bold;
-   }
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
 }
 
 /* Iphone */
@@ -929,7 +915,7 @@
    #titulo {
      color: #FFF;
      font-weight: bolder;
-     margin: 3% 5% 5% 12%;
+     margin: 3% 5% 5% 11%;
      width: 80%
    }
 
