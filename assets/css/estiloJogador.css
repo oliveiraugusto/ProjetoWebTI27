@@ -1,36 +1,839 @@
 @media only screen and (max-width: 1920px)
 {
-  body{background-color:red;}
+  html{ overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
+    overflow-y:auto;}
+
+  #admIcon{
+    width: 57px;
+    margin: -66px 0px 15px 8px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 100%;
+  }
+
+  .nav-link{
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 20pt;
+  }
+
+  img{ width: 25%;
+    margin: 0% 0% 0% 41%;
+  }
+  
+  #jogador{
+    border: #FFF solid 2px;
+    margin: 0% 2%;
+    width: 96%;
+  }
+
+  #titulo {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 3% 5% 5% 47%;
+    width: 13%;
+  }
+
+  .texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px 20px;
+  }
+
+  .Check{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px 0px 0px 5px;
+  }
+
+  .form-control{
+    margin: 5px 20px;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  #inputCursos{
+    margin: 2% -56% 5%;
+    width: 100%;
+  }
+
+  label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 93% 1%;
+    font-weight: bold;
+  }
+
+  #myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 1660px)
 {
-  body{background-color: coral;}
+  html{ overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
+    overflow-y:auto;}
+
+  #admIcon{
+    width: 44px;
+    margin: -66px 0px 7px 8px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 100%;
+  }
+
+  .nav-link{
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 17pt;
+  }
+
+  img{ width: 25%;
+    margin: 0% 0% 0% 41%;
+  }
+  
+  #jogador{
+    border: #FFF solid 2px;
+    margin: 0% 2%;
+    width: 96%;
+  }
+
+  #titulo {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 3% 5% 5% 46%;
+    width: 15%;
+  }
+
+  .texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px;
+  }
+
+  .Check{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px 0px 0px -10px;
+  }
+
+  .form-control{
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  #inputCursos{
+    margin: 2% -56% 5%;
+    width: 98%;
+  }
+
+  label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 92% 1%;
+    font-weight: bold;
+  }
+
+  #myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 1440px)
 {
-  body{background-color: orange;}
+  html{ overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
+    overflow-y:auto;}
+
+  #admIcon{
+    width: 44px;
+    margin: -66px 0px 7px 8px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 100%;
+  }
+
+  .nav-link{
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 17pt;
+  }
+
+  img{ width: 25%;
+    margin: 0% 0% 0% 41%;
+  }
+  
+  #jogador{
+    border: #FFF solid 2px;
+    margin: 0% 2%;
+    width: 96%;
+  }
+
+  #titulo {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 3% 5% 5% 45%;
+    width: 18%;
+  }
+
+  .texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px;
+  }
+
+  .Check{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px 0px 0px -10px;
+  }
+
+  .form-control{
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  #inputCursos{
+    margin: 2% -56% 5%;
+    width: 98%;
+  }
+
+  label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 90% 1%;
+    font-weight: bold;
+  }
+
+  #myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 1366px)
 {
-  body{background-color: purple;}
+  html{ overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
+    overflow-y:auto;}
+
+  #admIcon{
+    width: 35px;
+    margin: -60px 0px 10px 6px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 100%;
+  }
+
+  .nav-link{
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 17pt;
+  }
+
+  img{ width: 25%;
+    margin: 0% 0% 0% 41%;
+  }
+  
+  #jogador{
+    border: #FFF solid 2px;
+    margin: 0% 2%;
+    width: 96%;
+  }
+
+  #titulo {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 3% 5% 5% 44%;
+    width: 19%;
+  }
+
+  .texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px;
+  }
+
+  .Check{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px 0px 0px -10px;
+  }
+
+  .form-control{
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  #inputCursos{
+    margin: 2% -56% 5%;
+    width: 97%;
+  }
+
+  label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 90% 1%;
+    font-weight: bold;
+  }
+
+  #myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 1024px)
 {
-  body{background-color: black;}
+  html{ overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
+    overflow-y:auto;}
+
+  #admIcon{
+    width: 35px;
+    margin: -60px 0px 1px 6px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 100%;
+  }
+
+  .nav-link{
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 12pt;
+  }
+
+  img{ width: 25%;
+    margin: 0% 0% 0% 41%;
+  }
+  
+  #jogador{
+    border: #FFF solid 2px;
+    margin: 0% 2%;
+    width: 96%;
+  }
+
+  #titulo {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 3% 5% 5% 41%;
+    width: 25%;
+  }
+
+  .texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px;
+  }
+
+  .Check{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px 0px 0px -10px;
+  }
+
+  .form-control{
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  #inputCursos{
+    margin: 2% -44% 5%;
+    width: 86%;
+  }
+
+  label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 88% 1%;
+    font-weight: bold;
+  }
+
+  #myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 800px)
 {
-  body{background-color: teal;}
+  html{ overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
+    overflow-y:auto;}
+
+  #admIcon{
+    width: 35px;
+    margin: -60px 0px 1px 6px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 101%;
+  }
+
+  .nav-link{
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 10pt;
+  }
+
+  img{ width: 32%;
+    margin: 0% 0% 0% 37%;
+  }
+  
+  #jogador{
+    border: #FFF solid 2px;
+    margin: 0% 3%;
+    width: 95%;
+  }
+
+  #titulo {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 3% 5% 5% 36%;
+    width: 32%;
+  }
+
+  .texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px;
+  }
+
+  .Check{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px 0px 0px -10px;
+  }
+
+  .form-control{
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  #inputCursos{
+    margin: 2% -29% 5%;
+    width: 100%;
+  }
+
+  label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 85% 1%;
+    font-weight: bold;
+  }
+
+  #RadioNao{
+    margin: 0% -9%;
+  }
+
+  #myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 414px)
 {
-  body{background-color: whitesmoke;}
+  html{ overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
+    overflow-y:auto;}
+
+  #admIcon{
+    width: 35px;
+    margin: -60px 0px 1px 6px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 101%;
+  }
+
+  .nav-link{
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 10pt;
+  }
+
+  img{ width: 40%;
+    margin: 0% 0% 0% 31%;
+  }
+
+  #jogador{
+    border: #FFF solid 2px;
+    margin: 0% 4%;
+    width: 92%;
+  }
+
+  #titulo {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 3% 5% 5% 18%;
+    width: 62%;
+  }
+
+  .texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px;
+  }
+
+  .Check{
+    color: #FFF;
+    font-size: large;
+    font-weight: 15pt;
+    margin: 5px 0px 0px -10px;
+  }
+
+  .form-control{
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  #inputCursos{
+    margin: 2% 2% 5%;
+    width: 95%;
+  }
+
+  label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 71% 3%;
+    font-weight: bold;
+  }
+
+  #myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
+
 }
 
 @media only screen and (max-width: 360px)
@@ -39,7 +842,8 @@
     overflow-y:auto;
   }
 
-  body{ background-color: #5a9dcf; margin: 0 auto;}
+  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
+    overflow-y:auto;}
 
   #admIcon{
     width: 35px;
@@ -80,7 +884,7 @@
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 13%;
+    margin: 3% 5% 5% 14%;
     width: 72%;
   }
 
@@ -104,6 +908,11 @@
     border-radius: 10px;
   }
 
+  #inputCursos{
+    margin: 2% 2% 5%;
+    width: 95%;
+  }
+
   label.custom-control-label{
     color: #FFF;
     font-size: large;
@@ -112,46 +921,41 @@
   }
 
   button.btn.btn-primary{
-    margin: 0% 67% 1%;
+    margin: 0% 67% 3%;
     font-weight: bold;
   }
-}
-/* 
-#myFooter {
-background-color: #0070A4;
-color: #FFF;
-}
 
-#myFooter .row {
-margin-bottom: 0px;
+  #myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
 }
-
-
-.col-sm-3{
-margin: 15% 0% 0% 0%;
-}
-
-#myFooter ul {
-list-style-type: none;
-padding-left: 0;
-line-height: 1.7;
-}
-
-#myFooter h5 {
-font-size: 18px;
-color: white;
-font-weight: bold;
-margin-top: -150px;
-}
-
-#myFooter a {
-color: #FFF;
-text-decoration: none;
-}
-
-#myFooter a:hover,
-#myFooter a:focus {
-text-decoration: none;
-color: darkgrey;
-font-weight: bold;
-} */
