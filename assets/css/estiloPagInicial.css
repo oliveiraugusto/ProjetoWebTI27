@@ -31,75 +31,73 @@
 
 @media only screen and (max-width: 414px)
 {
-  body{background-color: whitesmoke;}
-}
-
-@media only screen and (max-width: 360px)
-{
-  #Topo
-  {
-    width: 270%
-  }
-
   html
-  {
+  { 
     overflow-x :hidden;
     overflow-y:auto;
   }
 
   body
-  {
-    background-color: #5a9dcf; 
-    margin: 0 auto;
+  { 
+    background-color: #5a9dcf; margin: 0 auto;
   }
 
   #admIcon
   {
-    width: 97px;
-    margin: -23px 0 1px 20px; 
+    width: 43px;
+    margin: -61px 0px 9px 14px;
   }
 
   #admIcon:hover
   {
     opacity: 60%;
   }
-  
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 128%;
+  }
+
+  .nav-link
+  {
+    margin: 0% -3% 0% 0%;
+    color: #FFF;
+    font-size: 18px
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
   img
   { 
-    width: 136%;
-    margin: 44% 25% 43% 90%;
+    width: 87%;
+    margin: 3% 0% 0% 20.5%;
   }
-  #logo_ranking
-  {
-    width: 8%;
-    margin: 15px 1px -16px 32px;
-  }
-  #logo_ranking:hover
-  {
-    opacity: 75%;
-  }
+
   #botao_jogar
   {
-    margin: 40px -12px;
-    width: 248px;
-    align-content: center;
+    margin: 37px 0px 11px 143px;
+    width: 232px;
   }
+
   #botao_jogar:hover
   {
     opacity: 70%;
   }
-  #divbotao
-  {
-    margin: 139px 103px 195px 551px;
-  }
+
   a.btn.btn-primary
   {
-    margin: 5% 2% 4% -186px;
+    margin: 26% 0% 41% -241px;
     font-weight: bold;
-    width: 148px;
-    height: 39px;
-    border-radius: 22px 
+    width: 120px;
+    height: 32px;
+    border-radius: 22px;
+    font-size: 80%
   }
+
   .texto
   {
     color: #FFF;
@@ -107,16 +105,19 @@
     font-weight: 20pt;
     margin: 5px;
   }
+
   .texto:hover
   {
     color: darkgrey;
     font-weight: bold;
   }
+  
   .form-control
   {
     margin: 5px;
     width: 95%;
   }
+
   label.custom-control-label
   {
     color: #FFF;
@@ -124,36 +125,203 @@
     font-weight: 20pt;
     margin: 5px;
   }
-  ul.nav.justify-content-end
-  {
-    background-color:  #0070A4;
-    width: 114%
-  }
+
   .nav-link
   {
-    margin: 0% 2% 0% 0%;
+    margin: 0px 0px 0px -20px;
     color: #FFF;
   }
+
   .nav-link:hover
   {
     color: darkgrey;
     font-weight: bold;
   }
-  #myFooter 
-  {
+
+  #myFooter {
     background-color: #0070A4;
     color: #FFF;
+    margin: 8% 0% 0% 0%;
   }
-  #myFooter .row 
-  {
-    margin-bottom: 0px;
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
   }
-  #myFooter .info
-  {
-    text-align: justify; 
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
     color: #FFF;
-    margin: 15% 0% 0% 0%;
+    text-decoration: none;
   }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 360px)
+{
+  html
+  { 
+    overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body
+  { 
+    background-color: #5a9dcf; margin: 0 auto;
+  }
+
+  #admIcon
+  {
+    width: 28px;
+    margin: -52px 0px 7px 12px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 101%;
+  }
+
+  .nav-link
+  {
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 13px;
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  img
+  { 
+    width: 60%;
+    margin: 3% 0% 0% 21.5%;
+  }
+
+  #botao_jogar
+  {
+    margin: 33px 93px 53px 96px;
+    width: 165px;
+  }
+  #botao_jogar:hover
+  {
+    opacity: 70%;
+  }
+
+  a.btn.btn-primary
+  {
+    margin: 26% 0% 41% -241px;
+    font-weight: bold;
+    width: 120px;
+    height: 32px;
+    border-radius: 22px;
+    font-size: 80%
+  }
+
+  .texto
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  .texto:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+  
+  .form-control
+  {
+    margin: 5px;
+    width: 95%;
+  }
+
+  label.custom-control-label
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  .nav-link
+  {
+    margin: 0px 0px 0px -20px;
+    color: #FFF;
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  #myFooter {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
+}
+
+/* 
+  
   .col-sm-3
   {
     margin: 15% 0% 0% 0%;
@@ -183,7 +351,7 @@
     color: darkgrey;
     font-weight: bold;
   }
-}
+} */
 
 
 
