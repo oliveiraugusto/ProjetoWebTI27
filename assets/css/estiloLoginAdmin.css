@@ -546,7 +546,7 @@
 
 @media only screen and (max-width: 800px)
 {
-      html{ overflow-x :hidden;
+    html{ overflow-x :hidden;
         overflow-y:auto;
     }
 
@@ -656,7 +656,7 @@
 
 @media only screen and (max-width: 414px)
 {
-      html{ overflow-x :hidden;
+    html{ overflow-x :hidden;
     overflow-y:auto;
     }
 
