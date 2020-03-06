@@ -561,7 +561,7 @@
   #myFooter {
     background-color: #0070A4;
     color: #FFF;
-    margin: 8% 0% 0% 0%;
+    margin: 24% 0% 0% 0%;
   }
 
   .col-sm-3{
@@ -857,7 +857,7 @@
 
   ul.nav.justify-content-end{
     background-color: #0070A4;
-    width: 101%;
+    width: 100%;
   }
 
   .nav-link{
