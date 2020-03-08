@@ -24,7 +24,7 @@
     .nav-link{
         margin: 0% 0% 0% 0%;
         color: #FFF;
-        font-size: 20pt;
+        font-size: 12pt;
     }
     
     img{ width: 25%;
@@ -133,7 +133,7 @@
     .nav-link{
         margin: 0% 0% 0% 0%;
         color: #FFF;
-        font-size: 17pt;
+        font-size: 12pt;
     }
     
     img{ width: 25%;
@@ -242,7 +242,7 @@
     .nav-link{
         margin: 0% 0% 0% 0%;
         color: #FFF;
-        font-size: 17pt;
+        font-size: 12pt;
     }
     
     img{ width: 25%;
@@ -351,7 +351,7 @@
     .nav-link{
         margin: 0% 0% 0% 0%;
         color: #FFF;
-        font-size: 17pt;
+        font-size: 12pt;
     }
     
     img{ width: 25%;
@@ -395,7 +395,7 @@
     }
 
     button.btn.btn-primary{
-        margin: 4% 52% 2%;
+        margin: 4% 50% 2%;
         font-weight: bold;
     }
 

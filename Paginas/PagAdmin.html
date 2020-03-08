@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdmQuiz - Login Jogador</title>
+    <title>AdmQuiz - Página Administrativa</title>
 
     <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
 
@@ -15,12 +15,11 @@
     <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js.map"></script>
     <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="../assets/css/estiloLoginJogador.css"/>
+    <link rel="stylesheet" href="../assets/css/estiloPagAdmin.css"/>
 
     
 </head>
 <body>
-    <!--Aqui se encontra a margem de cima do código -->
     <div id="Topo">
         <ul class="nav justify-content-end">
             <li class="nav-item">
@@ -33,39 +32,49 @@
             <a class="nav-link" href="#">Sobre</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="LoginJogador.html">Entrar</a>
+                <a class="nav-link" href="PagInicial.html">Sair</a>
             </li>
         </ul>
     </div>
     <a href="PagInicial.html"><img id="admIcon" src="../assets/imagens/admIcon.png"></a>
-    <!--Aqui se encontra a imagem da página, junto com as caixas de entrada de informação -->
     <div id="Conteudo">
         <img src="../assets/imagens/favicon.ico">
-        <form>
-            <fieldset id="jogador"><legend id="titulo">Faça seu Login</legend>
-            <div id="config">
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputLogin" class="texto">Login: </label>
-                        <input type="text" class="form-control" id="inputLogin" placeholder="Login" size="15" maxlength="20">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputSenha" class="texto">Senha: </label>
-                        <input type="password" class="form-control" id="inputSenha" placeholder="Senha" size="15" maxlength="20">
-                    </div>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
-                    <label class="form-check-label" for="autoSizingCheck2">Lembrar de mim</label>  
-                </div>  
-            </div>
-                <button type="submit" class="btn btn-primary">Entrar</button>
-            </fieldset>
-        </form>
+        <h2>
+            Bem-vindo a Área Administrativa</br>"Usuário"
+        </h2>
+            <form>
+                <fieldset id="administrador"><legend id="tituloAdministrador">Administrador</legend>
+                    <a href="CadAdmin.html"><button type="button" class="btn btn-primary">Cadastrar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Alterar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Deletar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Listar</button></a>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset id="categoria"><legend id="tituloCategoria">Categorias</legend>
+                    <a href="CadCategoria.html"><button type="button" class="btn btn-primary">Cadastrar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Alterar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Deletar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Listar</button></a>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset id="jogador"><legend id="tituloJogador">Jogador</legend>
+                    <a href="CadJogador.html"><button type="button" class="btn btn-primary">Cadastrar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Alterar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Deletar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Listar</button></a>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset id="perguntas"><legend id="tituloPerguntas">Perguntas</legend>
+                    <a href="CadPerguntas.html"><button type="button" class="btn btn-primary">Cadastrar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Alterar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Deletar</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary">Listar</button></a>
+                </fieldset>
+            </form>
     </div>
-    <!--Aqui se encontra o rodapé de cima do código -->
     <div id="Rodape">
     <div class="content">
         <footer id="myFooter">
