@@ -1,12 +1,304 @@
 
 @media only screen and (max-width: 1920px)
 {
-  body{background-color:red;}
+  html
+  { 
+    overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body
+  { 
+    background-color: #5a9dcf; margin: 0 auto;
+  }
+
+  #admIcon
+  {
+    width: 43px;
+    margin: -61px 0px 9px 14px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 100%;
+  }
+
+  .nav-link
+  {
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 18px
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  .texto
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  .texto:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+  
+  .form-control
+  {
+    margin: 5px;
+    width: 95%;
+  }
+
+  label.custom-control-label
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  .nav-link
+  {
+    margin: 0px 0px 0px -20px;
+    color: #FFF;
+    font-size: 16px;
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  img
+  { 
+    width: 24%;
+    margin: 2% 0% -24% 36.5%;
+  }
+
+  #botao_jogar
+  {
+    margin: 0px 2px 89px 524px;
+    width: 241px
+  }
+
+  #botao_jogar:hover
+  {
+    opacity: 70%;
+  }
+
+  a.btn.btn-primary
+  {
+    margin: 31% 2% 38% -206px;
+    font-weight: bold;
+    width: 158px;
+    height: 40px;
+    border-radius: 22px;
+    font-size: 115%
+  }
+
+  #myFooter 
+  {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: -19% -1% 0% 0%;
+  }
+
+  .col-sm-3
+  {
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul 
+  {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 
+  {
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a 
+  {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus 
+  {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 1660px)
 {
-  body{background-color: coral;}
+  html
+  { 
+    overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  body
+  { 
+    background-color: #5a9dcf; margin: 0 auto;
+  }
+
+  #admIcon
+  {
+    width: 43px;
+    margin: -61px 0px 9px 14px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+    width: 100%;
+  }
+
+  .nav-link
+  {
+    margin: 0% 0% 0% 0%;
+    color: #FFF;
+    font-size: 18px
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  .texto
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  .texto:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+  
+  .form-control
+  {
+    margin: 5px;
+    width: 95%;
+  }
+
+  label.custom-control-label
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  .nav-link
+  {
+    margin: 0px 0px 0px -20px;
+    color: #FFF;
+    font-size: 16px;
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  img
+  { 
+    width: 24%;
+    margin: 0% 2% -17% 39%;
+  }
+
+  #botao_jogar
+  {
+    margin: 0px 2px 197px 703px;
+    width: 241px;
+  }
+
+  #botao_jogar:hover
+  {
+    opacity: 70%;
+  }
+
+  a.btn.btn-primary
+  {
+    margin: 24% -5% 43% -205px;
+    font-weight: bold;
+    width: 158px;
+    height: 40px;
+    border-radius: 22px;
+    font-size: 115%
+  }
+
+  #myFooter 
+  {
+    background-color: #0070A4;
+    color: #FFF;
+    margin: -38% -1% 0% 0%;
+  }
+
+  .col-sm-3
+  {
+    margin: 8% 0% 0% 0%;
+  }
+
+  #myFooter ul 
+  {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 
+  {
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #myFooter a 
+  {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus 
+  {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
 }
 
 @media only screen and (max-width: 1440px)
@@ -83,7 +375,7 @@
   {
     margin: 0px 0px 0px -20px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .nav-link:hover
@@ -94,14 +386,14 @@
 
   img
   { 
-    width: 46%;
-    margin: 2% 0% -24% 26.5%;
+    width: 24%;
+    margin: 2% 0% -24% 36.5%;
   }
 
   #botao_jogar
   {
-    margin: 0px 6px 52px 361px;
-    width: 241px;
+    margin: 0px 2px 89px 524px;
+    width: 241px
   }
 
   #botao_jogar:hover
@@ -111,7 +403,7 @@
 
   a.btn.btn-primary
   {
-    margin: 33% 0% 36% -210px;
+    margin: 31% 2% 38% -206px;
     font-weight: bold;
     width: 158px;
     height: 40px;
@@ -123,7 +415,7 @@
   {
     background-color: #0070A4;
     color: #FFF;
-    margin: -10% -1% 0% 0%;
+    margin: -19% -1% 0% 0%;
   }
 
   .col-sm-3
@@ -157,13 +449,13 @@
     text-decoration: none;
     color: darkgrey;
     font-weight: bold;
-  }
+  }D
 
 }
 
 @media only screen and (max-width: 1366px)
 {
-   html
+  html
   { 
     overflow-x :hidden;
     overflow-y:auto;
@@ -235,7 +527,7 @@
   {
     margin: 0px 0px 0px -20px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .nav-link:hover
@@ -246,14 +538,14 @@
 
   img
   { 
-    width: 46%;
-    margin: 2% 0% -24% 26.5%;
+    width: 24%;
+    margin: 2% 0% -24% 36.5%;
   }
 
   #botao_jogar
   {
-    margin: 0px 6px 52px 361px;
-    width: 241px;
+    margin: 0px 2px 89px 524px;
+    width: 241px
   }
 
   #botao_jogar:hover
@@ -263,7 +555,7 @@
 
   a.btn.btn-primary
   {
-    margin: 33% 0% 36% -210px;
+    margin: 31% 2% 38% -206px;
     font-weight: bold;
     width: 158px;
     height: 40px;
@@ -275,7 +567,7 @@
   {
     background-color: #0070A4;
     color: #FFF;
-    margin: -10% -1% 0% 0%;
+    margin: -19% -1% 0% 0%;
   }
 
   .col-sm-3
@@ -310,7 +602,6 @@
     color: darkgrey;
     font-weight: bold;
   }
-
 }
 
 @media only screen and (max-width: 1024px)
