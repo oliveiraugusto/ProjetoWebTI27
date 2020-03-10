@@ -9,19 +9,169 @@
 
 }
 /*Notebook*/
-@media only screnn and (max-width: 1440px)
+@media only screen and (max-width: 1440px)
 {
 
 }
 /*HD*/
-@media only screnn and (max-width: 1366px)
+@media only screen and (max-width: 1366px)
 {
 
 }
 /*Telas Antigas*/
-@media only screnn and (max-width: 1024px)
+@media only screen and (max-width: 1024px)
 {
+  html
+  { overflow-x :hidden;
+    overflow-y:auto;
+  }
 
+  /*Configuração do CSS da margem de cima da tela*/
+  body{ background-color: #5a9dcf; margin: 0 auto;}
+
+  #admIcon
+  {
+    width: 43px;
+    margin: -66px 1052px 1px 20px;
+  }
+
+  ul.nav.justify-content-end
+  {
+    margin: auto;
+    background-color: #0070A4;
+  }
+
+  .nav-link
+  {
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  img
+  { 
+    width: 34%;
+    margin: 0% 0% 5% 32%;
+  }
+
+  #titulo 
+  {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 0% 2% 4% 8%;
+    width: 30%;
+    font-size: 18pt;
+  }
+
+  .texto
+  {
+    color: #FFF;
+    font-size: large;
+    font-size: 17pt;
+    margin: 0% 0% 0% 27%;
+  }
+
+  .form-control
+  {
+    margin: 0% 0% 0% 25%;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  label.label_radiotitu
+  {
+    color: #FFF; 
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0% 1% 0% 14%;
+  }
+
+  #Cad
+  {
+    margin: 4% 0% 6% 1%;
+  }
+
+  .custom-control-inline
+  {
+    margin: 0% 0% 0% 13%;
+  }
+
+  .btn-primary
+  {
+    margin: 0% 50% 0% 12%;
+  }
+
+  label.custom-control-label
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  #Categoria
+  {
+    border: #FFF solid 3px;
+    margin: 13% 4%;
+    width: 91%;
+    font-size: 12pt;
+  }
+
+  /*Configuração do CSS da margem de baixo, rodapé*/
+  #myFooter 
+  {
+    background-color: #0070A4;
+    color: #FFF;
+  }
+
+  #myFooter .row 
+  {
+    margin-bottom: 0px;
+  }
+
+  .col-sm-3
+  {
+    margin: 31% 0% 0% 0%;
+  }
+
+  #myFooter ul 
+  {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 
+  {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: -150px;
+  }
+
+  #myFooter a 
+  {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus 
+  {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
 }
 
 /*Telas Obsoletas*/
@@ -31,6 +181,154 @@
   { overflow-x :hidden;
     overflow-y:auto;
   }
+  
+  /*Configuração do CSS da margem de cima da tela*/
+  body{ background-color: #5a9dcf; margin: 0 auto;}
+
+  #admIcon
+  {
+    width: 27px;
+    margin: -66px 1052px 1px 20px;
+  }
+
+  ul.nav.justify-content-end
+  {
+    margin: auto;
+    background-color: #0070A4;
+  }
+
+  .nav-link
+  {
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  img
+  { 
+    width: 34%;
+    margin: 0% 0% 5% 32%;
+  }
+
+  #titulo 
+  {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 0% 2% 4% 11%;
+    width: 37%;
+    font-size: 18pt;
+  }
+
+  .texto
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 0% 0% 0% 27%;
+  }
+  
+  .form-control
+  {
+    margin: 0% 0% 0% 25%;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  label.label_radiotitu
+  {
+    color: #FFF; 
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0% 1% 0% 14%;
+  }
+
+  #Cad
+  {
+    margin: 4% 0% 6% 1%;
+  }
+
+  .custom-control-inline
+  {
+    margin: 0% 0% 0% 13%;
+  }
+
+  .btn-primary
+  {
+    margin: 0% 50% 0% 12%;
+  }
+
+  label.custom-control-label
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  #Categoria
+  {
+    border: #FFF solid 3px;
+    margin: 13% 4%;
+    width: 91%;
+    font-size: 12pt;
+  }
+
+  /*Configuração do CSS da margem de baixo, rodapé*/
+  #myFooter 
+  {
+    background-color: #0070A4;
+    color: #FFF;
+  }
+
+  #myFooter .row 
+  {
+    margin-bottom: 0px;
+  }
+
+  .col-sm-3
+  {
+    margin: 31% 0% 0% 0%;
+  }
+
+  #myFooter ul 
+  {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 
+  {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: -150px;
+  }
+
+  #myFooter a 
+  {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus 
+  {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
+
   
 }
 /*Iphone*/
@@ -213,7 +511,7 @@
 
   ul.nav.justify-content-end
   {
-    margin: 0% -52% 0% 0%;
+    margin: 0% -17% 0% 0%;
     background-color: #0070A4;
   }
 
@@ -235,7 +533,7 @@
   img
   { 
     width: 52%;
-    margin: 0% 0% 5% 52%;
+    margin: 0% 0% 5% 36%;
   }
 
   #titulo 
@@ -295,7 +593,7 @@
   #Categoria
   {
     border: #FFF solid 3px;
-    margin: 13% 30%;
+    margin: 13% 11%;
     width: 98%;
     font-size: 12pt;
   }
