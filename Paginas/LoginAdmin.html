@@ -38,19 +38,19 @@
     <!--Aqui se encontra a imagem da página, junto com as caixas de entrada de informação -->
     <div id="Conteudo">
         <img src="../assets/imagens/favicon.ico">
-        <form>
+        <form action="Ezequiel.class.php"  method="POST">
             <fieldset id="administrador"><legend id="titulo">Login</legend>
             <div id="config">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputLogin" class="texto">Login: </label>
-                        <input type="text" class="form-control" id="inputLogin" placeholder="Login" size="15" maxlength="20">
+                        <input type="text" class="form-control" id="inputLogin" name="nome" placeholder="Login" size="15" maxlength="20">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputSenha" class="texto">Senha: </label>
-                        <input type="password" class="form-control" id="inputSenha" placeholder="Senha" size="15" maxlength="20">
+                        <input type="password" class="form-control" id="inputSenha" placeholder="Senha" name="senha"  size="15" maxlength="20">
                     </div>
                 </div>
                 <div class="form-check">

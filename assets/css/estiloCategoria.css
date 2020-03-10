@@ -1,121 +1,355 @@
-html{ overflow-x :hidden;
+/*FULL HD*/
+@media only screen and (max-width: 1920px)
+{
+
+}
+/*PC*/
+@media only screen and (max-width: 1660px)
+{
+
+}
+/*Notebook*/
+@media only screnn and (max-width: 1440px)
+{
+
+}
+/*HD*/
+@media only screnn and (max-width: 1366px)
+{
+
+}
+/*Telas Antigas*/
+@media only screnn and (max-width: 1024px)
+{
+
+}
+
+/*Telas Obsoletas*/
+@media only screen and (max-width: 800px)
+{
+  html
+  { overflow-x :hidden;
     overflow-y:auto;
+  }
+  
 }
-
-/*Configuração do CSS da margem de cima da tela*/
-body{ background-color: #5a9dcf; margin: 0 auto;}
-
-#admIcon
+/*Iphone*/
+@media only screen and (max-width: 414px)
 {
-width: 41px;
-margin: -66px 1052px 1px 20px;
-}
+  html
+  { overflow-x :hidden;
+    overflow-y:auto;
+  }
+  
+  /*Configuração do CSS da margem de cima da tela*/
+  body{ background-color: #5a9dcf; margin: 0 auto;}
 
-ul.nav.justify-content-end{
-  background-color: #0070A4;
-}
+  #admIcon
+  {
+    width: 27px;
+    margin: -66px 1052px 1px 20px;
+  }
 
-.nav-link{
-  margin: 0% 2% 0% 0%;
-  color: #FFF;
-}
+  ul.nav.justify-content-end
+  {
+    margin: auto;
+    background-color: #0070A4;
+  }
 
-.nav-link:hover{
-  color: darkgrey;
-  font-weight: bold;
-}
+  .nav-link
+  {
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+  }
 
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
 
-#admIcon:hover
-{
-opacity: 60%;
-}
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
 
-img{ width: 12%;
-margin: 0% 0% -10% 31%;}
+  img
+  { 
+    width: 52%;
+    margin: 0% 0% 5% 25%;
+  }
 
+  #titulo 
+  {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 0% 2% 4% 18%;
+    width: 63%;
+    font-size: 16pt;
+  }
 
-
-#titulo {color: #FFF;
-font-weight: bolder;
-margin: 5% 5% 5% 26%;
-width: 50%;}
-
-.texto{
+  .texto
+  {
     color: #FFF;
     font-size: large;
     font-weight: 20pt;
-    margin: 0% 0% 0% 13%;
+    margin: 0% 0% 0% 5%;
   }
 
-.form-control{
-    margin: 0% 0% 0% 13%;
-    width: 165%;
+  .form-control
+  {
+    margin: 0% 0% 0% 3%;
+    width: 95%;
     border-radius: 10px;
-}
+  }
 
-label.label_radiotitu{
-color: #FFF; 
-font-weight: bolder;
-font-size: 20px;
-margin: 0% 1% 0% 10%;
-}
-.custom-control-inline{
-margin: 0% 0% 0% 10%;
-}
+  label.label_radiotitu
+  {
+    color: #FFF; 
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0% 1% 0% 10%;
+  }
 
-.btn-primary{
+  #Cad
+  {
+    margin: 4% 0% 6% 1%;
+  }
+
+  .custom-control-inline
+  {
+    margin: 0% 0% 0% 10%;
+  }
+
+  .btn-primary
+  {
     margin: 0% 50% 0% 8%;
-}
+  }
 
-
-label.custom-control-label{
+  label.custom-control-label
+  {
     color: #FFF;
     font-size: large;
     font-weight: 20pt;
     margin: 5px;
-}
+  }
 
-#Categoria{border: #FFF solid 2px;
-margin: 13% 25%;
-width: 25%;}
+  #Categoria
+  {
+    border: #FFF solid 3px;
+    margin: 13% 4%;
+    width: 91%;
+    font-size: 12pt;
+  }
 
-/*Configuração do CSS da margem de baixo, rodapé*/
-#myFooter {
+  /*Configuração do CSS da margem de baixo, rodapé*/
+  #myFooter 
+  {
     background-color: #0070A4;
     color: #FFF;
   }
-  
-  #myFooter .row {
+
+  #myFooter .row 
+  {
     margin-bottom: 0px;
   }
-  
-  
-  .col-sm-3{
-    margin: 15% 0% 0% 0%;
+
+  .col-sm-3
+  {
+    margin: 31% 0% 0% 0%;
   }
-  
-  #myFooter ul {
+
+  #myFooter ul 
+  {
     list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
   }
-  
-  #myFooter h5 {
+
+  #myFooter h5 
+  {
     font-size: 18px;
     color: white;
     font-weight: bold;
     margin-top: -150px;
   }
-  
-  #myFooter a {
+
+  #myFooter a 
+  {
     color: #FFF;
     text-decoration: none;
   }
-  
+
   #myFooter a:hover,
-  #myFooter a:focus {
+  #myFooter a:focus 
+  {
     text-decoration: none;
     color: darkgrey;
     font-weight: bold;
   }
+
+  #Rodape
+  {
+    margin: 186% -54% 0% 0%
+  }
+
+}
+/*Android*/
+@media only screen and (max-width: 360px)
+{
+  html
+  { overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  /*Configuração do CSS da margem de cima da tela*/
+  body{ background-color: #5a9dcf; margin: 0 auto;}
+
+  #admIcon
+  {
+    width: 41px;
+    margin: -66px 1052px 1px 20px;
+  }
+
+  ul.nav.justify-content-end
+  {
+    margin: 0% -52% 0% 0%;
+    background-color: #0070A4;
+  }
+
+  .nav-link{
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+  }
+
+  .nav-link:hover{
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  img
+  { 
+    width: 52%;
+    margin: 0% 0% 5% 52%;
+  }
+
+  #titulo 
+  {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 0% 2% 4% 18%;
+    width: 68%;
+    font-size: 16pt;
+  }
+
+  .texto
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 0% 0% 0% 5%;
+  }
+
+  .form-control
+  {
+    margin: 0% 0% 0% 3%;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  label.label_radiotitu
+  {
+    color: #FFF; 
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0% 1% 0% 10%;
+  }
+
+  #Cad
+  {
+    margin: 4% 0% 6% 1%;
+  }
+  .custom-control-inline
+  {
+    margin: 0% 0% 0% 10%;
+  }
+
+  .btn-primary
+  {
+    margin: 0% 50% 0% 8%;
+  }
+
+  label.custom-control-label
+  {
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  #Categoria
+  {
+    border: #FFF solid 3px;
+    margin: 13% 30%;
+    width: 98%;
+    font-size: 12pt;
+  }
+
+  /*Configuração do CSS da margem de baixo, rodapé*/
+  #myFooter 
+  {
+    background-color: #0070A4;
+    color: #FFF;
+  }
+
+  #myFooter .row 
+  {
+    margin-bottom: 0px;
+  }
+
+  .col-sm-3
+  {
+    margin: 30% 33% 0% 0%;
+  }
+
+  
+  #myFooter ul 
+  {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 
+  {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: -150px;
+  }
+
+  #myFooter a 
+  {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus 
+  {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
+  #Rodape
+  {
+    margin: 186% -54% 0% 0%
+  }
+}
+
+
