@@ -36,7 +36,7 @@
   /*Configurações da imagem*/
   img
   { 
-    width: 19%;
+    width: 20%;
     margin: 0% 0% 2% 41%;
   }
 
@@ -51,8 +51,9 @@
   {
     color: #FFF;
     font-weight: bolder;
-    margin: 5% 5% 5% 26%;
-    width: 50%;
+    margin: 5% 5% 5% 39%;
+    width: 23%;
+    font-size: 20pt;
   }
 
   .texto
@@ -65,7 +66,7 @@
 
   .form-control
   {
-    margin: 5px;
+    margin: 3px;
     width: 95%;
     border-radius: 10px;
   }
@@ -86,6 +87,8 @@
   button.btn.btn-primary
   {
     font-weight: bold;
+    margin: 0% 0% 0% 33%;
+    width: 51%;
   }
 
   /*Configurações da margem de baixo*/
@@ -173,7 +176,7 @@
   /*Configurações da imagem*/
   img
   { 
-    width: 19%;
+    width: 20%;
     margin: 0% 0% 2% 41%;
   }
 
@@ -188,8 +191,9 @@
   {
     color: #FFF;
     font-weight: bolder;
-    margin: 5% 5% 5% 26%;
-    width: 50%;
+    margin: 5% 5% 5% 39%;
+    width: 23%;
+    font-size: 20pt;
   }
 
   .texto
@@ -202,7 +206,7 @@
 
   .form-control
   {
-    margin: 5px;
+    margin: 3px;
     width: 95%;
     border-radius: 10px;
   }
@@ -223,6 +227,8 @@
   button.btn.btn-primary
   {
     font-weight: bold;
+    margin: 0% 0% 0% 33%;
+    width: 51%;
   }
 
   /*Configurações da margem de baixo*/
@@ -325,8 +331,9 @@
   {
     color: #FFF;
     font-weight: bolder;
-    margin: 5% 5% 5% 26%;
-    width: 50%;
+    margin: 5% 5% 5% 34%;
+    width: 31%;
+    font-size: 20pt;
   }
 
   .texto
@@ -339,7 +346,7 @@
 
   .form-control
   {
-    margin: 5px;
+    margin: 3px;
     width: 95%;
     border-radius: 10px;
   }
@@ -352,14 +359,13 @@
     margin: 5px;
   }
 
-  #botaoc
-  {
-    margin:  0% 0% 2% 83%;
-  }
+  
 
   button.btn.btn-primary
   {
     font-weight: bold;
+    margin: 0% 0% 0% 33%;
+    width: 51%;
   }
 
   /*Configurações da margem de baixo*/
@@ -606,8 +612,8 @@
   /*Configurações da imagem*/
   img
   { 
-    width: 40%;
-    margin: 0% 0% 2% 30%;
+    width: 20%;
+    margin: 0% 0% 2% 41%;
   }
 
   #administrador
@@ -621,8 +627,9 @@
   {
     color: #FFF;
     font-weight: bolder;
-    margin: 5% 5% 5% 26%;
-    width: 50%;
+    margin: 5% 5% 5% 30%;
+    width: 43%;
+    font-size: 20pt;
   }
 
   .texto
@@ -635,7 +642,7 @@
 
   .form-control
   {
-    margin: 5px;
+    margin: 3px;
     width: 95%;
     border-radius: 10px;
   }
@@ -647,14 +654,13 @@
     font-weight: 20pt;
     margin: 5px;
   }
-  #botaoc
-  {
-    margin:  0% 0% 2% 83%;
-  }
+
 
   button.btn.btn-primary
   {
     font-weight: bold;
+    margin: 0% 0% 0% 0%;
+    width: 87%;
   }
 
   /*Configurações da margem de baixo*/
@@ -765,7 +771,7 @@
   #administrador
   {
     border: #FFF solid 2px;
-    margin: 3% 8%;
+    margin: 4% auto;
     width: 85%;
   }
 
@@ -773,8 +779,9 @@
   {
     color: #FFF;
     font-weight: bolder;
-    margin: 5% 5% 5% 26%;
-    width: 50%;
+    margin: 5% 5% 5% 23%;
+    width: 55%;
+    font-size: 20pt;
   }
 
   .texto
@@ -787,7 +794,7 @@
 
   .form-control
   {
-    margin: 5px;
+    margin: 3px;
     width: 95%;
     border-radius: 10px;
   }
@@ -799,14 +806,13 @@
     font-weight: 20pt;
     margin: 5px;
   }
-  #botaoc
-  {
-    margin:  0% 0% 2% 83%;
-  }
+
 
   button.btn.btn-primary
   {
     font-weight: bold;
+    margin: 0% 0% 0% -7%;
+    width: 96%;
   }
 
   /*Configurações da margem de baixo*/
@@ -868,7 +874,11 @@
 {
 
   /*Configurações da margem de cima*/
-  body{ background-color: #5a9dcf; margin: 0 auto;}
+  body
+  { 
+    background-color: #5a9dcf; margin: 0 auto;
+    margin: 0% 10% 0% 0%;
+  }
 
   html
   { 
@@ -908,14 +918,14 @@
   /*Configurações da imagem*/
   img
   { 
-    width: 40%;
-    margin: 0% 0% 2% 30%;
+    width: 20%;
+    margin: 0% 0% 2% 39%;
   }
 
   #administrador
   {
     border: #FFF solid 2px;
-    margin: 3% 8%;
+    margin: 3% 9%;
     width: 85%;
   }
 
@@ -923,8 +933,9 @@
   {
     color: #FFF;
     font-weight: bolder;
-    margin: 5% 5% 5% 26%;
-    width: 50%;
+    margin: 5% 5% 5% 19%;
+    width: 69%;
+    font-size: 13pt;
   }
 
   .texto
@@ -937,7 +948,7 @@
 
   .form-control
   {
-    margin: 5px;
+    margin: 3px;
     width: 95%;
     border-radius: 10px;
   }
@@ -952,8 +963,9 @@
 
   button.btn.btn-primary
   {
-    margin: 2% 65% 3;
+    margin: 22% 0% 20% -85%;
     font-weight: bold;
+    width: 157%;
   }
 
   /*Configurações da margem de baixo*/
@@ -978,6 +990,11 @@
   #myFooter .row 
   {
     margin-bottom: 0px;
+    margin: 0% -119% 0% 0%;
+  }
+  .p.info
+  {
+    font-size: 12pt;
   }
 
   #myFooter ul 

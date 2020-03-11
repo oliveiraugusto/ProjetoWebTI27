@@ -5,44 +5,44 @@
     <title>AdmQuiz - Cadastro de Administradores</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-grid.css"/>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-reboot.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-grid.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-reboot.css"/>
 
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js.map"></script>
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.js.map"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="../assets/css/estiloAdmin.css"/>
+    <link rel="stylesheet" href="../../assets/css/estiloAdmin.css"/>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/aj ax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
 </head>
 <body>
-    <div id="Topo">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ajuda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
-            </li>
-          </ul>
-          <li class="nav-item">
-            <a class="nav-link" href="PagAdmin.html">Sair</a>
-          </li>
-        </ul>
-          <a href="PagInicial.html"><img id="admIcon" src="../assets/imagens/admIcon.png"></a>
-    </div>
+    <body>
+        <div id="Topo">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="PagInicial.html">Sair</a>
+                </li>
+              </ul>
+              <a href="PagAdmin.html"><img id="admIcon" src="../../assets/imagens/admIcon.png"></a>
+        </div>
     <div id="Conteudo">
-        <img src="../assets/imagens/favicon.ico">
+        <img src="../../assets/imagens/logo.png">
         <form>
-            <fieldset id="administrador"><legend id="titulo">Cadastro de Administradores</legend>
+            <fieldset id="administrador"><legend id="titulo"> Cadastro de Administradores</legend>
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputLogin" class="texto">Login: </label>
@@ -107,8 +107,8 @@
                         </div>
                         <div class="col-sm-3 info">
                             <h5>Informações</h5>
-                            <p> Lorem ipsum nam quisque aliquam sapien cras vulputate torquent metus aenean, vehicula aenean dui mi risus hac a mattis at. 
-                                pulvinar torquent tempor congue lorem non sociosqu tortor, conubia at pretium tortor nisi consequat.</p>
+                            <p class="info"><i>AdmQuiz</i> é um projeto integrador idealizado e desenvolvido pelas turmas do 
+                                <i>Técnico em Informática 27</i> & <i>Técnico em Administração 06</i> do <b><i>Senac Botucatu</i></b>. </p>
                         </div>
                     </div>
                 </div>
