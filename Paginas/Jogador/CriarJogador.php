@@ -33,7 +33,7 @@
               <a class="nav-link" href="#">Sobre</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="LoginJogador.html">Entrar</a>
+                <a class="nav-link" href="../Login/LoginAdmin.php">Administrativo</a>
             </li>
           </ul>
           <a href="PagInicial.html"><img id="admIcon" src="../../assets/imagens/admIcon.png"></a>

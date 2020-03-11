@@ -35,7 +35,7 @@
               <a class="nav-link" href="#">Sobre</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="PagAdmin.html">Sair</a>
+                <a class="nav-link" href="../Inicial/PagInicial.php">Sair</a>
             </li>
           </ul>
           <a href="PagInicial.html"><img id="admIcon" src="../../assets/imagens/admIcon.png"></a>

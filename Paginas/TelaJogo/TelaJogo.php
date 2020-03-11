@@ -21,10 +21,6 @@
 <body>
     <div id="Topo">
         <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="LoginAdmin.html">Administrativo</a>
-          </li>
-          <li>
             <a class="nav-link" href="#">Ajuda</a>
           </li>
           <li class="nav-item">
@@ -32,9 +28,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="LoginJogador.html">Entrar</a>
           </li>
           </ul>
           <a href="PagInicial.html"><img id="admIcon" src="../../assets/imagens/admIcon.png"></a>
