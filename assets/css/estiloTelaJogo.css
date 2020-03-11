@@ -224,20 +224,30 @@
 
   img
   { 
-    width: 24%;
-    margin: 0% 2% -17% 39%;
+    width: 20%;
+    margin: 0% 2% -17% 40%;
   }
 
-  #botao_jogar
+  .list-group-item.active 
   {
-    margin: 0px 2px 197px 703px;
-    width: 241px;
+    z-index: 2;
+    color: #fff;
+    background-color: #0070A4;
+    height: 133px;
+    border-radius: -10%;
   }
 
-  #botao_jogar:hover
-  {
-    opacity: 70%;
-  }
+}
+.list-group 
+{
+    width: 600px;
+    margin: 300px auto;
+}
+
+.list-group-item
+{
+    background-color: bisque;
+}
 
   a.btn.btn-primary
   {
@@ -1098,26 +1108,6 @@
     margin: 1% 2% -8% 15.5%;
   }
 
-  #botao_jogar
-  {
-    margin: 33px 93px 53px 92px;
-    width: 181px;
-  }
-  #botao_jogar:hover
-  {
-    opacity: 70%;
-  }
-
-  a.btn.btn-primary
-  {
-    margin: 26% 0% 41% -245px;
-    font-weight: bold;
-    width: 120px;
-    height: 32px;
-    border-radius: 22px;
-    font-size: 80%
-  }
-
   .texto
   {
     color: #FFF;
@@ -1157,39 +1147,14 @@
     color: darkgrey;
     font-weight: bold;
   }
-
-  #myFooter {
-    background-color: #0070A4;
-    color: #FFF;
-    margin: 8% 0% 0% 0%;
+  .Pergunta
+  { 
+    border-top: 50px solid white; 
+    border-left: 25px solid transparent; 
+    border-right: 25px solid transparent; 
+    height: 0; 
+    width: 50px; 
   }
 
-  .col-sm-3{
-    margin: 8% 0% 0% 0%;
-  }
-
-  #myFooter ul {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-  }
-
-  #myFooter h5 {
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-  }
-
-  #myFooter a {
-    color: #FFF;
-    text-decoration: none;
-  }
-
-  #myFooter a:hover,
-  #myFooter a:focus {
-  text-decoration: none;
-  color: darkgrey;
-  font-weight: bold;
-  }
 }
-
+}
