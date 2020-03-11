@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdmQuiz - Login Jogador</title>
 
-    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-grid.css"/>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-reboot.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-grid.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-reboot.css"/>
 
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js.map"></script>
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.js.map"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="../assets/css/estiloLoginJogador.css"/>
+    <link rel="stylesheet" href="../../assets/css/estiloLoginJogador.css"/>
 
     
 </head>
 <body>
-    <!--Aqui se encontra a margem de cima do código -->
     <div id="Topo">
         <ul class="nav justify-content-end">
             <li class="nav-item">
@@ -38,9 +37,8 @@
         </ul>
     </div>
     <a href="PagInicial.html"><img id="admIcon" src="../assets/imagens/admIcon.png"></a>
-    <!--Aqui se encontra a imagem da página, junto com as caixas de entrada de informação -->
     <div id="Conteudo">
-        <img src="../assets/imagens/favicon.ico">
+        <img src="../../assets/imagens/logo.png">
         <form>
             <fieldset id="jogador"><legend id="titulo">Faça seu Login</legend>
             <div id="config">
@@ -65,7 +63,6 @@
             </fieldset>
         </form>
     </div>
-    <!--Aqui se encontra o rodapé de cima do código -->
     <div id="Rodape">
     <div class="content">
         <footer id="myFooter">

@@ -8,8 +8,8 @@
         overflow-y:auto;}
     
     #admIcon{
-        width: 57px;
-        margin: -66px 0px 15px 8px;
+        width: 35px;
+        margin: -66px 0px 0px 8px;
     }
     
     #admIcon:hover{
@@ -27,21 +27,21 @@
         font-size: 12pt;
     }
     
-    img{ width: 25%;
-        margin: 0% 0% 0% 41%;
+    img{ width: 20%;
+        margin: 0% 0% 0% 40.5%;
     }
 
     #administrador{
         border: #FFF solid 2px;
-        margin: 0% 2%;
+        margin: 3% 2% 0%;
         width: 96%;
     }
     
     #titulo {
         color: #FFF;
         font-weight: bolder;
-        margin: 3% 5% 5% 52%;
-        width: 3%;
+        margin: 0% 5% 5% 46.5%;
+        width: 9%;
     }
 
     .texto{
@@ -68,7 +68,7 @@
     }
 
     button.btn.btn-primary{
-        margin: 4% 52.5% 2%;
+        margin: 1% 49% 2%;
         font-weight: bold;
     }
 
@@ -117,8 +117,8 @@
         overflow-y:auto;}
     
     #admIcon{
-        width: 44px;
-        margin: -66px 0px 7px 8px;
+        width: 38px;
+        margin: -66px 0px 0px 8px;
     }
     
     #admIcon:hover{
@@ -136,21 +136,21 @@
         font-size: 12pt;
     }
     
-    img{ width: 25%;
-        margin: 0% 0% 0% 41%;
+    img{width: 20%;
+        margin: 0% 0% 0% 43%;
     }
 
     #administrador{
         border: #FFF solid 2px;
-        margin: 0% 2%;
+        margin: 3% 2% 0%;
         width: 96%;
     }
     
     #titulo {
         color: #FFF;
         font-weight: bolder;
-        margin: 3% 5% 5% 52%;
-        width: 4%;
+        margin: 3% 5% 5% 48%;
+        width: 10.5%;
     }
 
     .texto{
@@ -177,7 +177,7 @@
     }
 
     button.btn.btn-primary{
-        margin: 4% 52% 2%;
+        margin: 1% 51% 2%;
         font-weight: bold;
     }
 
@@ -226,8 +226,8 @@
         overflow-y:auto;}
     
     #admIcon{
-        width: 44px;
-        margin: -66px 0px 7px 8px;
+        width: 35px;
+        margin: -66px 0px 0px 9px;
     }
     
     #admIcon:hover{
@@ -245,21 +245,21 @@
         font-size: 12pt;
     }
     
-    img{ width: 25%;
+    img{width: 20%;
         margin: 0% 0% 0% 41%;
     }
 
     #administrador{
         border: #FFF solid 2px;
-        margin: 0% 2%;
+        margin: 3% 2% 0%;
         width: 96%;
     }
     
     #titulo {
         color: #FFF;
         font-weight: bolder;
-        margin: 3% 5% 5% 51%;
-        width: 4%;
+        margin: 3% 5% 5% 45.2%;
+        width: 12.1%;
     }
 
     .texto{
@@ -286,7 +286,7 @@
     }
 
     button.btn.btn-primary{
-        margin: 4% 51% 2%;
+        margin: 1% 49% 2%;
         font-weight: bold;
     }
 
@@ -354,38 +354,27 @@
         font-size: 12pt;
     }
     
-    img{ width: 25%;
-        margin: 0% 0% 0% 37.5%;
+    img{ width: 20%;
+        margin: 0% 0% 0% 42%;
     }
 
     #administrador{
         border: #FFF solid 2px;
-        margin: 0% 2%;
+        margin: 2% 2% 0% 2%;
         width: 96%;
     }
     
     #titulo {
         color: #FFF;
         font-weight: bolder;
-        margin: 3% 5% 5% 47.3%;
-        width: 4%;
+        margin: 3% 5% 5% 45.8%;
+        width: 12.8%;
     }
     
     .texto{
         color: #FFF;
         font-size: large;
         margin: 5px 370px 5px;
-    }
-
-    div.form-check{
-        margin: 3% 43%;
-        display: inline;
-    }
-
-    .form-check-label{
-        color: #FFF;
-        font-size: large;
-        margin: -1% 0% 0% 1%;
     }
 
     .form-control{
@@ -395,7 +384,7 @@
     }
 
     button.btn.btn-primary{
-        margin: 4% 47.4% 2%;
+        margin: 2% 50% 2%;
         font-weight: bold;
     }
 
@@ -444,8 +433,8 @@
         overflow-y:auto;}
     
     #admIcon{
-        width: 35px;
-        margin: -60px 0px 1px 6px;
+        width: 31px;
+        margin: -60px 0px 3px 6px;
     }
     
     #admIcon:hover {
@@ -463,38 +452,27 @@
         font-size: 12pt;
     }
     
-    img{ width: 25%;
-        margin: 0% 0% 0% 40.5%;
+    img{width: 20%;
+        margin: 0% 0% 0% 43%;
     }
 
     #administrador{
         border: #FFF solid 2px;
-        margin: 0% 2%;
+        margin: 2% 2% 0% 2%;
         width: 96%;
     }
 
     #titulo {
         color: #FFF;
         font-weight: bolder;
-        margin: 3% 5% 5% 50%;
-        width: 6%;
+        margin: 3% 5% 5% 45.1%;
+        width: 17%;
     }
     
     .texto{
         color: #FFF;
         font-size: large;
         margin: 5px 295px 5px;
-    }
-
-    div.form-check{
-        margin: 3% 45%;
-        display: inline;
-    }
-
-    .form-check-label{
-        color: #FFF;
-        font-size: large;
-        margin: -1% 0% 0% 1%;
     }
 
     .form-control{
@@ -554,8 +532,8 @@
         overflow-y:auto;}
 
     #admIcon{
-        width: 35px;
-        margin: -60px 0px 1px 6px;
+        width: 30px;
+        margin: -60px 0px 0px 6px;
     }
 
     #admIcon:hover
@@ -574,38 +552,28 @@
         font-size: 10pt;
     }
 
-    img{ width: 32%;
-        margin: 0% 0% 0% 36.5%;
+    img{ width: 25%;
+        margin: 0% 0% 0% 39%;
     }
 
     #administrador{
         border: #FFF solid 2px;
-        margin: 0% 3%;
+        margin: 2% 3% 0% 3%;
         width: 95%;
     }
     
     #titulo {
         color: #FFF;
         font-weight: bolder;
-        margin: 3% 5% 5% 47%;
-        width: 8%;
+        margin: 3% 5% 5% 42%;
+        width: 18.6%;
+        font-size: 15pt;
     }
     
     .texto{
         color: #FFF;
         font-size: large;
         margin: 5px 216px 5px;
-    }
-
-    div.form-check{
-        margin: 3% 40%;
-        display: inline;
-    }
-
-    .form-check-label{
-        color: #FFF;
-        font-size: large;
-        margin: -1% 0% 0% 1%;
     }
 
     .form-control{
@@ -664,8 +632,8 @@
         overflow-y:auto;}
 
     #admIcon{
-        width: 35px;
-        margin: -60px 0px 1px 6px;
+        width: 30px;
+        margin: -60px 0px 0px 5px;
     }
 
     #admIcon:hover
@@ -690,15 +658,16 @@
 
     #administrador{
         border: #FFF solid 2px;
-        margin: 0% 4%;
+        margin: 7% 4% 0% 4%;
         width: 92%;
     }
 
     #titulo {
         color: #FFF;
         font-weight: bolder;
-        margin: 3% 5% 5% 42%;
-        width: 16%;
+        margin: 3% 5% 5% 36%;
+        width: 32%;
+        font-size: 13pt;
     }
     
     .texto{
@@ -706,17 +675,6 @@
         font-size: large;
         font-weight: 15pt;
         margin: 5px;
-    }
-
-    div.form-check{
-        margin: 3% 26%;
-    }
-
-    .form-check-label{
-        color: #FFF;
-        font-size: large;
-        font-weight: 20pt;
-        margin: -1% 0% 0% 2%;
     }
 
     .form-control{
@@ -775,8 +733,8 @@
         overflow-y:auto;}
     
     #admIcon{
-        width: 35px;
-        margin: -60px 0px 1px 6px;
+        width: 25px;
+        margin: -60px 0px 0px 5px;
     }
     
     #admIcon:hover{
@@ -799,21 +757,22 @@
         font-weight: bold;
     }
     
-    img{ width: 40%;
-        margin: 0% 0% 0% 31%;
+    img{ width: 25%;
+        margin: 0% 0% 0% 36.5%;
     }
 
     #administrador{
         border: #FFF solid 2px;
-        margin: 0% 3%;
+        margin: 6% 3% 0% 4%;
         width: 92%;
     }
 
     #titulo {
         color: #FFF;
         font-weight: bolder;
-        margin: 5% 5% 5% 41%;
-        width: 19%;
+        margin: 5% 5% 5% 30%;
+        width: 37%;
+        font-size: 13pt;
     }
 
     .texto{
@@ -821,17 +780,6 @@
         font-size: large;
         font-weight: 20pt;
         margin: 5px 5px 8px;
-    }
-
-    div.form-check{
-        margin: 3% 26%;
-    }
-
-    .form-check-label{
-        color: #FFF;
-        font-size: large;
-        font-weight: 20pt;
-        margin: -1% 0% 0% 2%;
     }
 
     .form-control{

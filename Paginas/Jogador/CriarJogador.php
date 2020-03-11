@@ -15,7 +15,7 @@
     <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.js.map"></script>
     <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="../../assets/css/estiloJogador.css"/>
+    <link rel="stylesheet" href="../../assets/css/estiloCriarJogador.css"/>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/aj ax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 

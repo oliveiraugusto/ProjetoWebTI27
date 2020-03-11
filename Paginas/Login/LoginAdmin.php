@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdmQuiz - Login Administrador</title>
 
-    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-grid.css"/>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-reboot.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-grid.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-reboot.css"/>
 
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js.map"></script>
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.js.map"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="../assets/css/estiloLoginAdmin.css"/>
+    <link rel="stylesheet" href="../../assets/css/estiloLoginAdmin.css"/>
 
     
 </head>
 <body>
-    <!--Aqui se encontra a margem de cima do código -->
     <div id="Topo">
         <ul class="nav justify-content-end">
             <li class="nav-item">
@@ -34,12 +33,11 @@
             </li>
         </ul>
     </div>
-    <a href="PagInicial.html"><img id="admIcon" src="../assets/imagens/admIcon.png"></a>
-    <!--Aqui se encontra a imagem da página, junto com as caixas de entrada de informação -->
+    <a href="PagInicial.html"><img id="admIcon" src="../../assets/imagens/admIcon.png"></a>
     <div id="Conteudo">
-        <img src="../assets/imagens/favicon.ico">
+        <img src="../../assets/imagens/logo.png">
         <form action="Ezequiel.class.php"  method="POST">
-            <fieldset id="administrador"><legend id="titulo">Login</legend>
+            <fieldset id="administrador"><legend id="titulo">Faça seu Login</legend>
             <div id="config">
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -53,10 +51,6 @@
                         <input type="password" class="form-control" id="inputSenha" placeholder="Senha" name="senha"  size="15" maxlength="20">
                     </div>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
-                    <label class="form-check-label" for="autoSizingCheck2">Lembrar de mim</label>  
-                </div>  
             </div>
                 <button type="submit" class="btn btn-primary">Entrar</button>
             </fieldset>
