@@ -6,6 +6,162 @@
 /*PC*/
 @media only screen and (max-width: 1660px)
 {
+  html
+  { 
+    overflow-x :hidden;
+    overflow-y:auto;
+  }
+
+  /*Configuração do CSS da margem de cima da tela*/
+  body{ background-color: #5a9dcf; margin: 0 auto;}
+
+  #admIcon
+  {
+    width: 43px;
+    margin: -66px 1052px 1px 20px;
+  }
+
+  ul.nav.justify-content-end
+  {
+    margin: auto;
+    background-color: #0070A4;
+  }
+
+  .nav-link
+  {
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+    font-size: 18pt;
+  }
+
+  .nav-link:hover
+  {
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  img
+  { 
+    width: 34%;
+    margin: 0% 0% 1% 32%;
+  }
+
+  #titulo 
+  {
+    color: #FFF;
+    font-weight: bolder;
+    margin: 0% 2% 4% 8%;
+    width: 29%;
+    font-size: 28pt;
+  }
+
+  .texto
+  {
+    color: #FFF;
+    font-size: large;
+    font-size: 21pt;
+    margin: 0% 0% 0% 26%;
+  }
+
+  .form-control
+  {
+    margin: 0% 0% 0% 25%;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  label.label_radiotitu
+  {
+    color: #FFF; 
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 0% 1% 0% 13%;
+  }
+
+  #Cad
+  {
+    margin: 4% 0% 6% 1%;
+  }
+
+  .custom-control-inline
+  {
+    margin: 0% 0% 0% 13%;
+  }
+
+  .btn-primary
+  {
+    margin: 0% 50% 0% 12%;
+    font-size: 18pt;
+    width: 13%;
+
+  }
+
+  label.custom-control-label
+  {
+    color: #FFF;
+    font-size: large;
+    font-size: 14pt;
+    margin: 5px;
+  }
+
+  #Categoria
+  {
+    border: #FFF solid 11px;
+    margin: 13% 6%;
+    width: 88%;
+    font-size: 12pt;
+  }
+
+  /*Configuração do CSS da margem de baixo, rodapé*/
+  #myFooter 
+  {
+    background-color: #0070A4;
+    color: #FFF;
+  }
+
+  #myFooter .row 
+  {
+    margin-bottom: 0px;
+  }
+
+  .col-sm-3
+  {
+    margin: 31% 0% 0% 0%;
+  }
+
+  #myFooter ul 
+  {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 
+  {
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    margin-top: -150px;
+  }
+
+  #myFooter a 
+  {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus 
+  {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
 
 }
 /*Notebook*/
