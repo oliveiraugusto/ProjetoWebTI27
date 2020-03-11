@@ -8,6 +8,6 @@ CREATE TABLE categoria
     categoria varchar(255) NOT NULL UNIQUE
 )
 
-INSERT categoria (categoria) VALUES ("ADMINISTRAÇÃO");
-INSERT categoria (categoria) VALUES ("RECURSOS HUMANOS");
-INSERT categoria (categoria) VALUES ("FINANÇAS");
+INSERT INTO categoria (categoria) VALUES ("ADMINISTRAÇÃO");
+INSERT INTO categoria (categoria) VALUES ("RECURSOS HUMANOS");
+INSERT INTO categoria (categoria) VALUES ("FINANÇAS");
