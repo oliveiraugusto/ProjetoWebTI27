@@ -33,7 +33,7 @@
     margin: 0% 0% 0% 41%;
   }
   
-  #jogador{
+  #perguntas{
     border: #FFF solid 2px;
     margin: 0% 2%;
     width: 96%;
@@ -119,135 +119,9 @@
 }
 
 /* Monitor Atual */
-@media screen and (max-width: 1660px)
-{   
-  /* html
-   { overflow-x :hidden;
-       overflow-y:auto;
-   }
-
-   body{ background-color: #5a9dcf; margin: 0 auto;}
-
-   #admIcon
-   {
-     width: 41px;
-     margin: -66px 1052px 1px 20px;
-   }
-
-   #admIcon:hover
-   {
-     opacity: 60%;
-   }
-
-   img{ width: 12%;
-     margin: 0% 0% -13% 43%;}
-
-   #campos{
-     width: 15%;
-     margin: 10% auto;
-     padding: 1%;
-   }
-
-   #perguntas{
-     border: #FFF solid 2px;
-     margin: 12% 25%;
-     width: 50%;
-   }
-
-   #titulo {
-     color: #FFF;
-     font-weight: bolder;
-     margin: -2% 9% 9% 29%;
-     width: 41%
-   }
-
-   .texto{
-     color: #FFF;
-     font-size: large;
-     font-weight: 20pt;
-     margin: 10px;
-   }
-
-   .texto:hover{
-     color: darkgrey;
-     font-weight: bold;
-   }
-
-   .form-control{
-     margin: 9px;
-     width: 100%;
-   }
-
-   label.custom-control-label{
-     color: #FFF;
-     font-size: large;
-     font-weight: 20pt;
-     margin: 5px;
-   }
-
-   ul.nav.justify-content-end{
-     background-color: #0070A4;
-   }
-
-   .nav-link{
-     margin: 0% 2% 0% 0%;
-     color: #FFF;
-   }
-
-   .nav-link:hover{
-     color: darkgrey;
-     font-weight: bold;
-   }
-
-   #myFooter{
-     background-color: #0070A4;
-     color: #FFF;
-     }
-
-   #myFooter .row {
-     margin-bottom: 0px;
-   }
-
-   #myFooter .info{
-     text-align: justify; 
-     color: #FFF;
-     margin: 15% 0% 0% 0%;
-   }
-
-   .col-sm-3{
-     margin: 15% 0% 0% 0%;
-   }
-
-   #myFooter ul {
-     list-style-type: none;
-     padding-left: 0;
-     line-height: 1.7;
-   }
-
-   #myFooter h5 {
-     font-size: 18px;
-     color: white;
-     font-weight: bold;
-     margin-top: -150px;
-   }
-
-   #myFooter a {
-     color: #FFF;
-     text-decoration: none;
-   }
-
-   #myFooter a:hover,
-   #myFooter a:focus {
-     text-decoration: none;
-     color: darkgrey;
-     font-weight: bold;
-   } */
-}
-
-/* Notebook Atual */
 @media screen and (max-width: 1440px)
-{  
-  /* html
+{
+  html
   { overflow-x :hidden;
       overflow-y:auto;
   }
@@ -265,8 +139,8 @@
     opacity: 60%;
   }
 
-  img{ width: 12%;
-    margin: 0% 0% -13% 43%;}
+  img{ width: 20%;
+    margin: 0% 0% -13% 42%;}
 
   #campos{
     width: 15%;
@@ -274,17 +148,22 @@
     padding: 1%;
   }
 
+  #inputCursos{
+    margin: 2% 3% 0%;
+    width: 60%;
+  }
+
   #perguntas{
     border: #FFF solid 2px;
-    margin: 12% 25%;
-    width: 50%;
+    margin: 12% 13%;
+    width: 75%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: -2% 9% 9% 29%;
-    width: 41%
+    margin: -2% 9% 9% 40%;
+    width: 24%
   }
 
   .texto{
@@ -323,6 +202,12 @@
   .nav-link:hover{
     color: darkgrey;
     font-weight: bold;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 86% 1%;
+    font-weight: bold;
+    font-size: 130%;
   }
 
   #myFooter{
@@ -367,10 +252,147 @@
     text-decoration: none;
     color: darkgrey;
     font-weight: bold;
-  } */
+  }
+}
+
+/* Notebook Atual OK */
+@media screen and (max-width: 1440px)
+{
+  html
+  { overflow-x :hidden;
+      overflow-y:auto;
+  }
+
+  body{ background-color: #5a9dcf; margin: 0 auto;}
+
+  #admIcon
+  {
+    width: 41px;
+    margin: -66px 1052px 1px 20px;
+  }
+
+  #admIcon:hover
+  {
+    opacity: 60%;
+  }
+
+  img{ width: 20%;
+    margin: 0% 0% -13% 42%;}
+
+  #campos{
+    width: 15%;
+    margin: 10% auto;
+    padding: 1%;
+  }
+
+  #inputCursos{
+    margin: 2% 3% 0%;
+    width: 60%;
+  }
+
+  #perguntas{
+    border: #FFF solid 2px;
+    margin: 12% 13%;
+    width: 75%;
+  }
+
+  #titulo {
+    color: #FFF;
+    font-weight: bolder;
+    margin: -2% 9% 9% 40%;
+    width: 24%
+  }
+
+  .texto{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 10px;
+  }
+
+  .texto:hover{
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  .form-control{
+    margin: 9px;
+    width: 100%;
+  }
+
+  label.custom-control-label{
+    color: #FFF;
+    font-size: large;
+    font-weight: 20pt;
+    margin: 5px;
+  }
+
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+  }
+
+  .nav-link{
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+  }
+
+  .nav-link:hover{
+    color: darkgrey;
+    font-weight: bold;
+  }
+
+  button.btn.btn-primary{
+    margin: 0% 86% 1%;
+    font-weight: bold;
+    font-size: 130%;
+  }
+
+  #myFooter{
+    background-color: #0070A4;
+    color: #FFF;
+    }
+
+  #myFooter .row {
+    margin-bottom: 0px;
+  }
+
+  #myFooter .info{
+    text-align: justify; 
+    color: #FFF;
+    margin: 15% 0% 0% 0%;
+  }
+
+  .col-sm-3{
+    margin: 15% 0% 0% 0%;
+  }
+
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
+
+  #myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: -150px;
+  }
+
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover,
+  #myFooter a:focus {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+  }
 }
  
-/* HD */
+/* HD OK */
 @media only screen and (max-width: 1366px)
 {
   html{ overflow-x :hidden;
@@ -475,6 +497,7 @@
     font-size: 18px;
     color: white;
     font-weight: bold;
+    margin: 0px ;
   }
 
   #myFooter a {
@@ -488,9 +511,16 @@
   color: darkgrey;
   font-weight: bold;
   }
+
+  #myFooter .info
+  {
+    text-align: justify;
+    color: #FFF;
+    margin: 8% 0% 0% 0%;
+  }
 }
 
-/* Telas Antiga */
+/* Telas Antiga OK */
 @media screen and (max-width: 1024px)
 {
   html{ overflow-x :hidden;
@@ -596,11 +626,16 @@
     font-size: 18px;
     color: white;
     font-weight: bold;
+    margin: 0px;
   }
 
   #myFooter a {
     color: #FFF;
     text-decoration: none;
+  }
+
+  #myFooter .info{
+    margin: 70px 0px 0px 0px;
   }
 
   #myFooter a:hover,
@@ -611,7 +646,7 @@
   }
 } 
 
-/* Telas Obsoleta */
+/* Telas Obsoleta OK */
 @media screen and (max-width: 800px)
 {
   html{ overflow-x :hidden;
@@ -659,20 +694,6 @@
     width: 34%;
   }
 
-  .textocategoria{
-    color: #FFF;
-    font-size: large;
-    font-weight: 15pt;
-    margin: 0% 0% 0% 29%;
-  }
-
-  .textopergunta{
-    color: #FFF;
-    font-size: large;
-    font-weight: 15pt;
-    margin: 5px;
-  } 
-
   .Check{
     color: #FFF;
     font-size: large;
@@ -702,12 +723,12 @@
     margin: 0% 85% 1%;
     font-weight: bold;
     font-size: unset;
-  }
+  }  
 
   #myFooter {
     background-color: #0070A4;
     color: #FFF;
-    margin: 24% 0% 0% 0%;
+    margin: 8% 0% 0% 0%;
   }
 
   .col-sm-3{
@@ -720,10 +741,16 @@
     line-height: 1.7;
   }
 
+  #myFooter .row
+  {
+    margin: -20px 0px 0px 0px;
+  }
+
   #myFooter h5 {
     font-size: 18px;
     color: white;
     font-weight: bold;
+    margin: 0px;
   }
 
   #myFooter a {
@@ -737,9 +764,14 @@
   color: darkgrey;
   font-weight: bold;
   }
+
+  #myFooter .info
+  {
+    margin: 8% 0% 0% 0%;
+  }
 }
 
-/* Iphone */
+/* Iphone OK */
 @media screen and (max-width: 414px)
 {
   html{ overflow-x :hidden;
@@ -845,6 +877,7 @@
     font-size: 18px;
     color: white;
     font-weight: bold;
+    margin: 0px;
   }
 
   #myFooter a {
@@ -860,7 +893,7 @@
   }
 } 
 
-/* Android */
+/* Android OK */
 @media screen and (max-width: 360px)
 {
   html
@@ -986,30 +1019,28 @@
      margin: 8% 0% 0% 0%;
    }
 
-   #myFooter ul 
-   {
-     list-style-type: none;
-     padding-left: 0;
-     line-height: 1.7;
-   }
+   #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+  }
 
-   #myFooter h5 {
+  #myFooter h5 {
     font-size: 18px;
     color: white;
     font-weight: bold;
+    margin: 0px;
   }
 
-   #myFooter a 
-   {
-     color: #FFF;
-     text-decoration: none;
-   }
+  #myFooter a {
+    color: #FFF;
+    text-decoration: none;
+  }
 
-   #myFooter a:hover,
-   #myFooter a:focus 
-   {
-     text-decoration: none;
-     color: darkgrey;
-     font-weight: bold;
-   }
+  #myFooter a:hover,
+  #myFooter a:focus {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+  }
 }
