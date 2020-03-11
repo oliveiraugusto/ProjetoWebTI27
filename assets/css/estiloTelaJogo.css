@@ -43,12 +43,6 @@
     margin: 5px;
   }
 
-  /* .texto:hover
-  {
-    color: darkgrey;
-    font-weight: bold;
-  }
-   */
   .form-control
   {
     margin: 5px;
@@ -73,70 +67,30 @@
 
   img
   { 
-    width: 24%;
-    margin: 2% 0% -24% 36.5%;
+    width: 20%;
+    margin: 2% 0% -24% 39.5%;
   }
 
-  #botao_jogar
+  .list-group-item.active 
   {
-    margin: 0px 2px 89px 524px;
-    width: 241px
-  }
-
-  #botao_jogar:hover
-  {
-    opacity: 70%;
-  }
-
-  a.btn.btn-primary
-  {
-    margin: 31% 2% 38% -206px;
-    font-weight: bold;
-    width: 158px;
-    height: 40px;
-    border-radius: 22px;
-    font-size: 115%
-  }
-
-  #myFooter 
-  {
+    z-index: 2;
+    color: #fff;
     background-color: #0070A4;
-    color: #FFF;
-    margin: -18% -1% 0% 0%;
+    height: 133px;
+    border-radius: -10%;
+    margin: 0px 0px 31px 0px;
   }
 
-  .col-sm-3
-  {
-    margin: 8% 0% 0% 0%;
-  }
+    .list-group 
+    {
+        width: 600px;
+        margin: 463px auto;
+    }
 
-  #myFooter ul 
-  {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-  }
-
-  #myFooter h5 
-  {
-    font-size: 23px;
-    color: white;
-    font-weight: bold;
-  }
-
-  #myFooter a 
-  {
-    color: #FFF;
-    text-decoration: none;
-  }
-
-  #myFooter a:hover,
-  #myFooter a:focus 
-  {
-    text-decoration: none;
-    color: darkgrey;
-    font-weight: bold;
-  }
+    .list-group-item
+    {
+        background-color: bisque;
+    }
 }
 
 @media only screen and (max-width: 1660px)
@@ -225,79 +179,42 @@
   img
   { 
     width: 20%;
-    margin: 0% 2% -17% 40%;
+    margin: 2% 0% -24% 39.5%;
   }
 
   .list-group-item.active 
-  {
-    z-index: 2;
-    color: #fff;
-    background-color: #0070A4;
-    height: 133px;
-    border-radius: -10%;
-  }
+   {
+        z-index: 2;
+        color: #fff;
+        background-color: #0070A4;
+        height: 133px;
+        border-radius: -10%;
+        margin: 0px 0px 31px 0px;
+   }
 
-}
-.list-group 
-{
-    width: 600px;
-    margin: 300px auto;
-}
 
-.list-group-item
-{
-    background-color: bisque;
-}
+    .list-group 
+    {
+        width: 600px;
+        margin: 300px auto;
+    }
 
-  a.btn.btn-primary
-  {
-    margin: 24% -5% 43% -205px;
-    font-weight: bold;
-    width: 158px;
-    height: 40px;
-    border-radius: 22px;
-    font-size: 115%
-  }
+    .list-group-item
+    {
+        background-color: bisque;
+    }
 
-  #myFooter 
-  {
-    background-color: #0070A4;
-    color: #FFF;
-    margin: -38% -1% 0% 0%;
-  }
+    a.btn.btn-primary
+    {
+        margin: 24% -5% 43% -205px;
+        font-weight: bold;
+        width: 158px;
+        height: 40px;
+        border-radius: 22px;
+        font-size: 115%
+    }
 
-  .col-sm-3
-  {
-    margin: 8% 0% 0% 0%;
-  }
-
-  #myFooter ul 
-  {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-  }
-
-  #myFooter h5 
-  {
-    font-size: 23px;
-    color: white;
-    font-weight: bold;
-  }
-
-  #myFooter a 
-  {
-    color: #FFF;
-    text-decoration: none;
-  }
-
-  #myFooter a:hover,
-  #myFooter a:focus 
-  {
-    text-decoration: none;
-    color: darkgrey;
-    font-weight: bold;
-  }
+  
 }
 
 @media only screen and (max-width: 1440px)
