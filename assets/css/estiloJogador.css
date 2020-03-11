@@ -8,8 +8,8 @@
     overflow-y:auto;}
 
   #admIcon{
-    width: 57px;
-    margin: -66px 0px 15px 8px;
+    width: 37px;
+    margin: -66px 0px 2px 8px;
   }
 
   #admIcon:hover
@@ -28,21 +28,21 @@
     font-size: 13pt;
   }
 
-  img{ width: 25%;
+  img{ width: 20%;
     margin: 0% 0% 0% 41%;
   }
   
   #jogador{
     border: #FFF solid 2px;
-    margin: 0% 2%;
+    margin: 3% 2% 0% 2%;
     width: 96%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 47%;
-    width: 13%;
+    margin: 3% 5% 5% 45%;
+    width: 12.9%;
   }
 
   .texto{
@@ -147,21 +147,21 @@
     font-size: 12pt;
   }
 
-  img{ width: 25%;
-    margin: 0% 0% 0% 41%;
+  img{ width: 20%;
+    margin: 0% 0% 0% 43%;
   }
   
   #jogador{
     border: #FFF solid 2px;
-    margin: 0% 2%;
+    margin: 3% 2% 0% 2%;
     width: 96%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 46%;
-    width: 15%;
+    margin: 3% 5% 5% 45.5%;
+    width: 14.9%;
   }
 
   .texto{
@@ -246,8 +246,8 @@
     overflow-y:auto;}
 
   #admIcon{
-    width: 44px;
-    margin: -66px 0px 7px 8px;
+    width: 35px;
+    margin: -67px 0px -1px 8px;
   }
 
   #admIcon:hover
@@ -266,21 +266,21 @@
     font-size: 12pt;
   }
 
-  img{ width: 25%;
-    margin: 0% 0% 0% 41%;
-  }
+  img{ width: 20%;
+    margin: 0% 0% 0% 43%;
+}
   
   #jogador{
     border: #FFF solid 2px;
-    margin: 0% 2%;
+    margin: 3% 2% 0% 2%;
     width: 96%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 45%;
-    width: 18%;
+    margin: 3% 5% 5% 44.7%;
+    width: 17.3%;
   }
 
   .texto{
@@ -385,21 +385,21 @@
     font-size: 12pt;
   }
 
-  img{ width: 25%;
-    margin: 0% 0% 0% 41%;
-  }
+  img{ width: 20%;
+    margin: 0% 0% 0% 45%;
+}
   
   #jogador{
     border: #FFF solid 2px;
-    margin: 0% 2%;
+    margin: 3% 2% 0% 2%;
     width: 96%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 44%;
-    width: 18.5%;;
+    margin: 3% 5% 5% 45.7%;
+    width: 18.5%;
   }
 
   .texto{
@@ -435,7 +435,7 @@
   }
 
   button.btn.btn-primary{
-    margin: 0% 91% 1%;
+    margin: 0% 90.5% 1%;
     font-weight: bold;
   }
 
@@ -484,8 +484,8 @@
     overflow-y:auto;}
 
   #admIcon{
-    width: 35px;
-    margin: -60px 0px 1px 6px;
+    width: 30px;
+    margin: -60px 0px 0px 4px;
   }
 
   #admIcon:hover
@@ -504,20 +504,20 @@
     font-size: 12pt;
   }
 
-  img{ width: 25%;
-    margin: 0% 0% 0% 41%;
+  img{ width: 23%;
+    margin: 0% 0% 0% 43%;
   }
   
   #jogador{
     border: #FFF solid 2px;
-    margin: 0% 2%;
+    margin: 3% 2% 0% 2%;
     width: 96%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 41%;
+    margin: 3% 5% 5% 42.2%;
     width: 24.5%;
   }
 
@@ -603,7 +603,7 @@
     overflow-y:auto;}
 
   #admIcon{
-    width: 35px;
+    width: 30px;
     margin: -60px 0px 1px 6px;
   }
 
@@ -623,21 +623,22 @@
     font-size: 10pt;
   }
 
-  img{ width: 32%;
-    margin: 0% 0% 0% 37%;
+  img{ width: 20%;
+    margin: 0% 0% 0% 44%;
   }
   
   #jogador{
     border: #FFF solid 2px;
-    margin: 0% 3%;
+    margin: 3% 2% 0% 3%;
     width: 95%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 36%;
-    width: 32%;
+    margin: 3% 5% 5% 41.1%;
+    width: 24.6%;
+    font-size: 14pt;
   }
 
   .texto{
@@ -726,8 +727,8 @@
     overflow-y:auto;}
 
   #admIcon{
-    width: 35px;
-    margin: -60px 0px 1px 6px;
+    width: 28px;
+    margin: -60px 0px 1px 4px;
   }
 
   #admIcon:hover
@@ -747,20 +748,21 @@
   }
 
   img{ width: 40%;
-    margin: 0% 0% 0% 31%;
+    margin: 0% 0% 0% 30%;
   }
 
   #jogador{
     border: #FFF solid 2px;
-    margin: 0% 4%;
+    margin: 5% 2% 0% 4%;
     width: 92%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 18%;
-    width: 62%;
+    margin: 0% 5% 5% 25%;
+    width: 49%;
+    font-size: 14pt;
   }
 
   .texto{
@@ -850,8 +852,8 @@
     overflow-y:auto;}
 
   #admIcon{
-    width: 35px;
-    margin: -60px 0px 1px 6px;
+    width: 25px;
+    margin: -60px 0px 0px 4px;
   }
 
   #admIcon:hover
@@ -881,15 +883,16 @@
 
   #jogador{
     border: #FFF solid 2px;
-    margin: 0% 4%;
+    margin: 5% 2% 0% 4%;
     width: 92%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 14%;
-    width: 72%;
+    margin: 3% 5% 5% 21%;
+    width: 56%;
+    font-size: 14pt;
   }
 
   .texto{
