@@ -38,36 +38,53 @@
                 <a class="nav-link" href="PagAdmin.html">Sair</a>
             </li>
           </ul>
-          <a href="PagInicial.html"><img id="admIcon" src="../../assets/imagens/admIcon.png"></a>
+          <a href="PagInicial.html">
+              <img id="admIcon" src="../../assets/imagens/logo.png">
+        </a>
     </div>
 
     <div id="Conteudo">
-        <img src="../assets/imagens/logo.png">
-        <form>
-            <fieldset id="Categoria"><legend id="titulo"> Cadastro de Categorias </legend>
-                <div class="form-group col-md-6">
-                    <label for="inputLogin" class="texto">Categoria</label>
-                    <input type="text" class="form-control" id="inputLogin" placeholder="Nome(Categoria)" size="15" maxlength="20">
-                </div>
-                <div class="label_radio">
-                    <label class="label_radiotitu" for="label_radio">Selecione a área da sua categoria:</label>
-                </div>
-
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="radioAdministrador" name="cCargo" class="custom-control-input">
-                    <label class="custom-control-label" for="radioAdministrador">AFRT</label>
-                </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="radioGerente" name="cCargo" class="custom-control-input">
-                    <label class="custom-control-label" for="radioGerente">RS</label>
-                </div>
-                    
-                <div id="Cad">
-                    <button type="submit" class="btn btn-primary">Cadastrar</button>
-                </div> 
-            </fieldset>
-            
-        </form>
+        <h1>Categorias</h1>
+        <a href="#" class="btn btn-primary">Nova Categoria</a>
+        <table class="table table-striped table-hover">
+            <tr style="text-align: center; font-weight: bold;">
+                <td>ID</td>
+                <td>Nome Categoria</td>
+                <td> Opções </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Administração</td>
+                <td>
+                    <a href="#" class="btn btn-warning">Atualizar</a>
+                    <a href="#" class="btn btn-danger">Deletar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Finanças</td>
+                <td>
+                    <a href="#" class="btn btn-warning">Atualizar</a>
+                    <a href="#" class="btn btn-danger">Deletar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>REcursos humanos</td>
+                <td>
+                    <a href="#" class="btn btn-warning">Atualizar</a>
+                    <a href="#" class="btn btn-danger">Deletar</a>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Outra Coisa</td>
+                <td>
+                    <a href="#" class="btn btn-warning">Atualizar</a>
+                    <a href="#" onclick="return dialog('tem certeza que vai fazer essa cagada?');" class="btn btn-danger">Deletar</a>
+                </td>
+            </tr>
+        </table>
     </div>
 
     <div id="Rodape">
