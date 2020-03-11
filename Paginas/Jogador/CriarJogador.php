@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdmQuiz - Cadastro de Jogadores</title>
 
-    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../..assets/js/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-grid.css"/>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-reboot.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-grid.css"/>
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap-reboot.css"/>
 
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.js.map"></script>
-    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.js.map"></script>
+    <script type="text/javascript" src="../../assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="../assets/css/estiloJogador.css"/>
+    <link rel="stylesheet" href="../../assets/css/estiloJogador.css"/>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/aj ax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
@@ -36,10 +36,10 @@
                 <a class="nav-link" href="LoginJogador.html">Entrar</a>
             </li>
           </ul>
-          <a href="PagInicial.html"><img id="admIcon" src="../assets/imagens/admIcon.png"></a>
+          <a href="PagInicial.html"><img id="admIcon" src="../../assets/imagens/admIcon.png"></a>
     </div>
     <div id="Conteudo">
-        <img src="../assets/imagens/favicon.ico">
+        <img src="../../assets/imagens/logo.png">
         <form>
             <fieldset id="jogador"><legend id="titulo">Cadastro de Jogador</legend>
             <div class="form-row">
