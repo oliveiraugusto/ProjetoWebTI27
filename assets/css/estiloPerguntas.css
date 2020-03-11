@@ -1,49 +1,18 @@
  /* FULL HD */
 @media screen and (max-width: 1920px)
 {
-<<<<<<< HEAD
   html{ overflow-x :hidden;
     overflow-y:auto;
   }
 
   body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
     overflow-y:auto;}
-=======
-  html
-   { overflow-x :hidden;
-       overflow-y:auto;
-   }
-
-   body{ background-color: #5a9dcf; margin: 0 auto;}
-
-   #admIcon
-   {
-     width: 41px;
-     margin: -66px 1052px 1px 20px;
-   }
-
-   #admIcon:hover
-   {
-     opacity: 60%;
-   }
-
-   .Check{
-    color: #FFF;
-    font-size: large;
-    font-weight: 15pt;
-    margin: 5px 0px 0px -10px;
-  }
-
-   img{ width: 12%;
-     margin: 0% 0% -13% 43%;}
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
 
   #admIcon{
     width: 57px;
     margin: -66px 0px 15px 8px;
   }
 
-<<<<<<< HEAD
   #admIcon:hover
   {
     opacity: 60%;
@@ -53,20 +22,6 @@
     background-color: #0070A4;
     width: 100%;
   }
-=======
-   #perguntas{
-     border: #FFF solid 2px;
-     margin: 12% 15%;
-     width: 65%;
-   }
-
-   #titulo {
-     color: #FFF;
-     font-weight: bolder;
-     margin: -2% 9% 9% 35%;
-     width: 45%
-   }
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
 
   .nav-link{
     margin: 0% 0% 0% 0%;
@@ -111,23 +66,10 @@
     border-radius: 10px;
   }
 
-<<<<<<< HEAD
   #inputCursos{
     margin: 2% -56% 5%;
     width: 100%;
   }
-=======
-   button.btn.btn-primary{
-    margin: 0% 85% 2%;
-    font-weight: bold;
-    font-size: larger;
-  }
-
-   .nav-link:hover{
-     color: darkgrey;
-     font-weight: bold;
-   }
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
 
   label.custom-control-label{
     color: #FFF;
@@ -168,156 +110,154 @@
     text-decoration: none;
   }
 
-<<<<<<< HEAD
   #myFooter a:hover,
   #myFooter a:focus {
   text-decoration: none;
   color: darkgrey;
   font-weight: bold;
   }
-=======
+}
+
+/* Monitor Atual */
+@media screen and (max-width: 1660px)
+{   
+  /* html
+   { overflow-x :hidden;
+       overflow-y:auto;
+   }
+
+   body{ background-color: #5a9dcf; margin: 0 auto;}
+
+   #admIcon
+   {
+     width: 41px;
+     margin: -66px 1052px 1px 20px;
+   }
+
+   #admIcon:hover
+   {
+     opacity: 60%;
+   }
+
+   img{ width: 12%;
+     margin: 0% 0% -13% 43%;}
+
+   #campos{
+     width: 15%;
+     margin: 10% auto;
+     padding: 1%;
+   }
+
+   #perguntas{
+     border: #FFF solid 2px;
+     margin: 12% 25%;
+     width: 50%;
+   }
+
+   #titulo {
+     color: #FFF;
+     font-weight: bolder;
+     margin: -2% 9% 9% 29%;
+     width: 41%
+   }
+
+   .texto{
+     color: #FFF;
+     font-size: large;
+     font-weight: 20pt;
+     margin: 10px;
+   }
+
+   .texto:hover{
+     color: darkgrey;
+     font-weight: bold;
+   }
+
+   .form-control{
+     margin: 9px;
+     width: 100%;
+   }
+
+   label.custom-control-label{
+     color: #FFF;
+     font-size: large;
+     font-weight: 20pt;
+     margin: 5px;
+   }
+
+   ul.nav.justify-content-end{
+     background-color: #0070A4;
+   }
+
+   .nav-link{
+     margin: 0% 2% 0% 0%;
+     color: #FFF;
+   }
+
+   .nav-link:hover{
+     color: darkgrey;
+     font-weight: bold;
+   }
+
+   #myFooter{
+     background-color: #0070A4;
+     color: #FFF;
+     }
+
+   #myFooter .row {
+     margin-bottom: 0px;
+   }
+
+   #myFooter .info{
+     text-align: justify; 
+     color: #FFF;
+     margin: 15% 0% 0% 0%;
+   }
+
+   .col-sm-3{
+     margin: 15% 0% 0% 0%;
+   }
+
+   #myFooter ul {
+     list-style-type: none;
+     padding-left: 0;
+     line-height: 1.7;
+   }
+
+   #myFooter h5 {
+     font-size: 18px;
+     color: white;
+     font-weight: bold;
+     margin-top: -150px;
+   }
+
+   #myFooter a {
+     color: #FFF;
+     text-decoration: none;
+   }
+
    #myFooter a:hover,
    #myFooter a:focus {
      text-decoration: none;
      color: darkgrey;
      font-weight: bold;
-   }
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
-}
-
-/* Monitor Atual */
-@media only screen and (max-width: 1660px)
-{
-  html{ overflow-x :hidden;
-    overflow-y:auto;
-  }
-
-  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
-    overflow-y:auto;}
-
-  #admIcon{
-    width: 44px;
-    margin: -66px 0px 7px 8px;
-  }
-
-  #admIcon:hover
-  {
-    opacity: 60%;
-  }
-
-  ul.nav.justify-content-end{
-    background-color: #0070A4;
-    width: 100%;
-  }
-
-  .nav-link{
-    margin: 0% 0% 0% 0%;
-    color: #FFF;
-    font-size: 12pt;
-  }
-
-  img{ width: 25%;
-    margin: 0% 0% 0% 41%;
-  }
-  
-  #jogador{
-    border: #FFF solid 2px;
-    margin: 0% 2%;
-    width: 96%;
-  }
-
-  #titulo {
-    color: #FFF;
-    font-weight: bolder;
-    margin: 3% 5% 5% 46%;
-    width: 15%;
-  }
-
-  .texto{
-    color: #FFF;
-    font-size: large;
-    font-weight: 15pt;
-    margin: 5px 15px;
-  }
-
-  .Check{
-    color: #FFF;
-    font-size: large;
-    font-weight: 15pt;
-    margin: 5px 0px;
-  }
-
-  .form-control{
-    margin: 5px 15px;
-    width: 95%;
-    border-radius: 10px;
-  }
-
-  #inputCursos{
-    margin: 2% -56% 5%;
-    width: 98%;
-  }
-
-  label.custom-control-label{
-    color: #FFF;
-    font-size: large;
-    font-weight: 20pt;
-    margin: 5px;
-  }
-
-  button.btn.btn-primary{
-    margin: 0% 92% 1%;
-    font-weight: bold;
-  }
-
-  #myFooter {
-    background-color: #0070A4;
-    color: #FFF;
-    margin: 8% 0% 0% 0%;
-  }
-
-  .col-sm-3{
-    margin: 8% 0% 0% 0%;
-  }
-
-  #myFooter ul {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-  }
-
-  #myFooter h5 {
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-  }
-
-  #myFooter a {
-    color: #FFF;
-    text-decoration: none;
-  }
-
-  #myFooter a:hover,
-  #myFooter a:focus {
-  text-decoration: none;
-  color: darkgrey;
-  font-weight: bold;
-  }
+   } */
 }
 
 /* Notebook Atual */
 @media screen and (max-width: 1440px)
 {  
-  html{ overflow-x :hidden;
-    overflow-y:auto;
+  /* html
+  { overflow-x :hidden;
+      overflow-y:auto;
   }
 
-  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
-    overflow-y:auto;}
+  body{ background-color: #5a9dcf; margin: 0 auto;}
 
-  #admIcon{
-    width: 44px;
-    margin: -66px 0px 7px 8px;
+  #admIcon
+  {
+    width: 41px;
+    margin: -66px 1052px 1px 20px;
   }
 
   #admIcon:hover
@@ -325,57 +265,43 @@
     opacity: 60%;
   }
 
-  ul.nav.justify-content-end{
-    background-color: #0070A4;
-    width: 100%;
+  img{ width: 12%;
+    margin: 0% 0% -13% 43%;}
+
+  #campos{
+    width: 15%;
+    margin: 10% auto;
+    padding: 1%;
   }
 
-  .nav-link{
-    margin: 0% 0% 0% 0%;
-    color: #FFF;
-    font-size: 12pt;
-  }
-
-  img{ width: 25%;
-    margin: 0% 0% 0% 41%;
-  }
-  
-  #jogador{
+  #perguntas{
     border: #FFF solid 2px;
-    margin: 0% 2%;
-    width: 96%;
+    margin: 12% 25%;
+    width: 50%;
   }
 
   #titulo {
     color: #FFF;
     font-weight: bolder;
-    margin: 3% 5% 5% 45%;
-    width: 18%;
+    margin: -2% 9% 9% 29%;
+    width: 41%
   }
 
   .texto{
     color: #FFF;
     font-size: large;
-    font-weight: 15pt;
-    margin: 5px 15px;
+    font-weight: 20pt;
+    margin: 10px;
   }
 
-  .Check{
-    color: #FFF;
-    font-size: large;
-    font-weight: 15pt;
-    margin: 5px 0px;
+  .texto:hover{
+    color: darkgrey;
+    font-weight: bold;
   }
 
   .form-control{
-    margin: 5px 15px;
-    width: 95%;
-    border-radius: 10px;
-  }
-
-  #inputCursos{
-    margin: 2% -56% 5%;
-    width: 98%;
+    margin: 9px;
+    width: 100%;
   }
 
   label.custom-control-label{
@@ -385,19 +311,37 @@
     margin: 5px;
   }
 
-  button.btn.btn-primary{
-    margin: 0% 91% 1%;
+  ul.nav.justify-content-end{
+    background-color: #0070A4;
+  }
+
+  .nav-link{
+    margin: 0% 2% 0% 0%;
+    color: #FFF;
+  }
+
+  .nav-link:hover{
+    color: darkgrey;
     font-weight: bold;
   }
 
-  #myFooter {
+  #myFooter{
     background-color: #0070A4;
     color: #FFF;
-    margin: 8% 0% 0% 0%;
+    }
+
+  #myFooter .row {
+    margin-bottom: 0px;
+  }
+
+  #myFooter .info{
+    text-align: justify; 
+    color: #FFF;
+    margin: 15% 0% 0% 0%;
   }
 
   .col-sm-3{
-    margin: 8% 0% 0% 0%;
+    margin: 15% 0% 0% 0%;
   }
 
   #myFooter ul {
@@ -410,6 +354,7 @@
     font-size: 18px;
     color: white;
     font-weight: bold;
+    margin-top: -150px;
   }
 
   #myFooter a {
@@ -419,7 +364,6 @@
 
   #myFooter a:hover,
   #myFooter a:focus {
-<<<<<<< HEAD
     text-decoration: none;
     color: darkgrey;
     font-weight: bold;
@@ -428,21 +372,10 @@
  
 /* HD */
 @media only screen and (max-width: 1366px)
-=======
-  text-decoration: none;
-  color: darkgrey;
-  font-weight: bold;
-  }
-}
- 
-/* HD */
-@media screen and (max-width: 1366px)
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
 {
   html{ overflow-x :hidden;
     overflow-y:auto;
   }
-<<<<<<< HEAD
 
   body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
     overflow-y:auto;}
@@ -488,64 +421,13 @@
   .texto{
     color: #FFF;
     font-size: 150%;
-=======
-
-  body{ background-color: #5a9dcf; margin: 0 auto; overflow-x :hidden;
-    overflow-y:auto;}
-
-  #admIcon{
-    width: 35px;
-    margin: -60px 0px 10px 6px;
-  }
-
-  #admIcon:hover
-  {
-    opacity: 60%;
-  }
-
-  ul.nav.justify-content-end{
-    background-color: #0070A4;
-    width: 100%;
-  }
-
-  .nav-link{
-    margin: 0% 0% 0% 0%;
-    color: #FFF;
-    font-size: 12pt;
-  }
-
-  img{ width: 25%;
-    margin: 0% 0% 0% 41%;
-  }
-  
-  #jogador{
-    border: #FFF solid 2px;
-    margin: 0% 2%;
-    width: 96%;
-  }
-
-  #titulo {
-    color: #FFF;
-    font-weight: bolder;
-    margin: 3% 5% 5% 44%;
-    width: 18.5%;;
-  }
-
-  .texto{
-    color: #FFF;
-    font-size: large;
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
     font-weight: 15pt;
     margin: 5px 15px;
   }
 
   .Check{
     color: #FFF;
-<<<<<<< HEAD
     font-size: 150%;
-=======
-    font-size: large;
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
     font-weight: 15pt;
     margin: 5px 0px;
   }
@@ -557,13 +439,8 @@
   }
 
   #inputCursos{
-<<<<<<< HEAD
     margin: 1% 3% 5%;
     width: 60%;
-=======
-    margin: 2% -56% 5%;
-    width: 97%;
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
   }
 
   label.custom-control-label{
@@ -644,19 +521,11 @@
     font-size: 12pt;
   }
 
-<<<<<<< HEAD
   img{ width: 25%;
     margin: 0% 0% 0% 41%;
   }
   
   #perguntas{
-=======
-  img{ width: 13%;
-    margin: 0% 0% -14% 42%;
-  }
-  
-  #jogador{
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
     border: #FFF solid 2px;
     margin: 0% 2%;
     width: 96%;
@@ -665,53 +534,32 @@
   #titulo {
     color: #FFF;
     font-weight: bolder;
-<<<<<<< HEAD
     margin: 3% 5% 5% 41%;
     width: 26.5%;
-=======
-    margin: 3% 5% 5% 32%;
-    width: 38.5%;
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
   }
 
   .texto{
     color: #FFF;
-<<<<<<< HEAD
     font-size: 130%;
-=======
-    font-size: 124%;
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
     font-weight: 15pt;
     margin: 5px 10px;
   }
 
   .Check{
     color: #FFF;
-<<<<<<< HEAD
     font-size: 130%;
-=======
-    font-size: large;
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
     font-weight: 15pt;
     margin: 5px -3px;
   }
 
   .form-control{
     margin: 5px 10px;
-<<<<<<< HEAD
     width: 95%;
-=======
-    width: 100%;
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
     border-radius: 10px;
   }
 
   #inputCursos{
-<<<<<<< HEAD
     margin: 2% 2% 5%;
-=======
-    margin: 2% 4% 5%;
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
     width: 86%;
   }
 
@@ -723,15 +571,9 @@
   }
 
   button.btn.btn-primary{
-<<<<<<< HEAD
     margin: -2% 85% 1%;
     font-weight: bold;
     font-size: 21px;
-=======
-    margin: 0% 82% 2%;
-    font-weight: bold;
-    font-size: 107%;
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
   }
 
   #myFooter {
@@ -754,10 +596,6 @@
     font-size: 18px;
     color: white;
     font-weight: bold;
-<<<<<<< HEAD
-=======
-    /* margin: -43px 0px 10px 0px; */
->>>>>>> 10cfcb27aae789bc15a01958fcf39a7b4b0cbaf6
   }
 
   #myFooter a {
