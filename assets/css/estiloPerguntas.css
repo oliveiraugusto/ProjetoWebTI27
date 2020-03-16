@@ -126,7 +126,11 @@
       overflow-y:auto;
   }
 
+<<<<<<< HEAD
   body{ background-color: #5a9dcf; margin: 0 auto;}
+=======
+   body{ background-color: #5a9dcf;}
+>>>>>>> 05c141e31d6cca31619fb74daed7826e59d0fb55
 
   #admIcon
   {
@@ -263,7 +267,7 @@
       overflow-y:auto;
   }
 
-  body{ background-color: #5a9dcf; margin: 0 auto;}
+  body{ background-color: #5a9dcf;}
 
   #admIcon
   {

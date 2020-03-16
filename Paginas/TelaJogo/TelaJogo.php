@@ -42,6 +42,7 @@
   <button type="button" class="list-group-item list-group-item-action">c) Resposta 3</button>
   <button type="button" class="list-group-item list-group-item-action">d) Resposta 4</button>
   <button type="button" class="list-group-item list-group-item-action">f) Resposta 5</button>
+  <img id="relogio" src="../../assets/imagens/time.png"/>
 </div>
 </body>
 </html>

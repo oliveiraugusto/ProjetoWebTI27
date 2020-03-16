@@ -91,6 +91,12 @@
     {
         background-color: bisque;
     }
+
+    #relogio
+    {
+        width: 20%;
+        margin: 2% 0% -24% 39.5%;
+    }
 }
 
 @media only screen and (max-width: 1660px)
@@ -203,15 +209,11 @@
     {
         background-color: bisque;
     }
-
-    a.btn.btn-primary
+    
+    #relogio
     {
-        margin: 24% -5% 43% -205px;
-        font-weight: bold;
-        width: 158px;
-        height: 40px;
-        border-radius: 22px;
-        font-size: 115%
+        width: 20%;
+        margin: 2% 0% -24% 39.5%;
     }
 
   
@@ -306,67 +308,11 @@
     margin: 2% 0% -24% 36.5%;
   }
 
-  #botao_jogar
+  #relogio
   {
-    margin: 0px 2px 89px 524px;
-    width: 241px
+    width: 13%;
+    margin: -63% 5% -47% 99.5%;
   }
-
-  #botao_jogar:hover
-  {
-    opacity: 70%;
-  }
-
-  a.btn.btn-primary
-  {
-    margin: 31% 2% 38% -206px;
-    font-weight: bold;
-    width: 158px;
-    height: 40px;
-    border-radius: 22px;
-    font-size: 115%
-  }
-
-  #myFooter 
-  {
-    background-color: #0070A4;
-    color: #FFF;
-    margin: -19% -1% 0% 0%;
-  }
-
-  .col-sm-3
-  {
-    margin: 8% 0% 0% 0%;
-  }
-
-  #myFooter ul 
-  {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-  }
-
-  #myFooter h5 
-  {
-    font-size: 23px;
-    color: white;
-    font-weight: bold;
-  }
-
-  #myFooter a 
-  {
-    color: #FFF;
-    text-decoration: none;
-  }
-
-  #myFooter a:hover,
-  #myFooter a:focus 
-  {
-    text-decoration: none;
-    color: darkgrey;
-    font-weight: bold;
-  }D
-
 }
 
 @media only screen and (max-width: 1366px)
@@ -458,66 +404,11 @@
     margin: 2% 0% -24% 36.5%;
   }
 
-  #botao_jogar
-  {
-    margin: 0px 2px 89px 524px;
-    width: 241px
-  }
-
-  #botao_jogar:hover
-  {
-    opacity: 70%;
-  }
-
-  a.btn.btn-primary
-  {
-    margin: 31% 2% 38% -206px;
-    font-weight: bold;
-    width: 158px;
-    height: 40px;
-    border-radius: 22px;
-    font-size: 115%
-  }
-
-  #myFooter 
-  {
-    background-color: #0070A4;
-    color: #FFF;
-    margin: -19% -1% 0% 0%;
-  }
-
-  .col-sm-3
-  {
-    margin: 8% 0% 0% 0%;
-  }
-
-  #myFooter ul 
-  {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-  }
-
-  #myFooter h5 
-  {
-    font-size: 23px;
-    color: white;
-    font-weight: bold;
-  }
-
-  #myFooter a 
-  {
-    color: #FFF;
-    text-decoration: none;
-  }
-
-  #myFooter a:hover,
-  #myFooter a:focus 
-  {
-    text-decoration: none;
-    color: darkgrey;
-    font-weight: bold;
-  }
+  #relogio
+    {
+        width: 13%;
+        margin: -63% 5% -47% 99.5%;
+    }
 }
 
 @media only screen and (max-width: 1024px)
@@ -609,67 +500,11 @@
     margin: 2% 0% -24% 26.5%;
   }
 
-  #botao_jogar
+  #relogio
   {
-    margin: 0px 6px 52px 361px;
-    width: 241px;
+    width: 13%;
+    margin: -63% 5% -47% 99.5%;
   }
-
-  #botao_jogar:hover
-  {
-    opacity: 70%;
-  }
-
-  a.btn.btn-primary
-  {
-    margin: 33% 0% 36% -210px;
-    font-weight: bold;
-    width: 158px;
-    height: 40px;
-    border-radius: 22px;
-    font-size: 115%
-  }
-
-  #myFooter 
-  {
-    background-color: #0070A4;
-    color: #FFF;
-    margin: -10% -1% 0% 0%;
-  }
-
-  .col-sm-3
-  {
-    margin: 8% 0% 0% 0%;
-  }
-
-  #myFooter ul 
-  {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-  }
-
-  #myFooter h5 
-  {
-    font-size: 23px;
-    color: white;
-    font-weight: bold;
-  }
-
-  #myFooter a 
-  {
-    color: #FFF;
-    text-decoration: none;
-  }
-
-  #myFooter a:hover,
-  #myFooter a:focus 
-  {
-    text-decoration: none;
-    color: darkgrey;
-    font-weight: bold;
-  }
-
 
 }
 
@@ -762,67 +597,11 @@
     margin: 2% 0% -24% 26.5%;
   }
 
-  #botao_jogar
+  #relogio
   {
-    margin: 0px 6px 29px 274px;
-    width: 205px;
+    width: 13%;
+    margin: -63% 5% -47% 99.5%;
   }
-
-  #botao_jogar:hover
-  {
-    opacity: 70%;
-  }
-
-  a.btn.btn-primary
-  {
-    margin: 35% 0% 35% -186px;
-    font-weight: bold;
-    width: 147px;
-    height: 36px;
-    border-radius: 22px;
-    font-size: 98%;
-  }
-
-  #myFooter 
-  {
-    background-color: #0070A4;
-    color: #FFF;
-    margin: -10% -1% 0% 0%;
-  }
-
-  .col-sm-3
-  {
-    margin: 8% 0% 0% 0%;
-  }
-
-  #myFooter ul 
-  {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-  }
-
-  #myFooter h5 
-  {
-    font-size: 23px;
-    color: white;
-    font-weight: bold;
-  }
-
-  #myFooter a 
-  {
-    color: #FFF;
-    text-decoration: none;
-  }
-
-  #myFooter a:hover,
-  #myFooter a:focus 
-  {
-    text-decoration: none;
-    color: darkgrey;
-    font-weight: bold;
-  }
-
 }
 
 @media only screen and (max-width: 414px)
@@ -935,44 +714,10 @@
     font-weight: bold;
   }
 
-  #myFooter 
+  #relogio
   {
-    background-color: #0070A4;
-    color: #FFF;
-    margin: 48% -28% 0% 0%
-  }
-
-  .col-sm-3
-  {
-    margin: 8% 0% 0% 0%;
-  }
-
-  #myFooter ul 
-  {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-  }
-
-  #myFooter h5 
-  {
-    font-size: 23px;
-    color: white;
-    font-weight: bold;
-  }
-
-  #myFooter a 
-  {
-    color: #FFF;
-    text-decoration: none;
-  }
-
-  #myFooter a:hover,
-  #myFooter a:focus 
-  {
-    text-decoration: none;
-    color: darkgrey;
-    font-weight: bold;
+    width: 13%;
+    margin: -63% 5% -47% 99.5%;
   }
 
 }
@@ -1064,14 +809,11 @@
     color: darkgrey;
     font-weight: bold;
   }
-  .Pergunta
-  { 
-    border-top: 50px solid white; 
-    border-left: 25px solid transparent; 
-    border-right: 25px solid transparent; 
-    height: 0; 
-    width: 50px; 
+
+  #relogio
+  {
+        width: 13%;
+        margin: -63% 5% -47% 99.5%;
   }
 
-}
 }
